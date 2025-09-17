@@ -1,6 +1,7 @@
 import json
 from google import generativeai as genai
 from prompt import prompt_val
+from config import GEMINI_API_KEY, GEMINI_MODEL
 
 # Load ground truth
 with open("test_json/test_ground_truth.JSON", "r", encoding="utf-8") as f:
@@ -17,8 +18,8 @@ gen_dict = {item["question"]: item["answer"] for item in generated}
 evaluation_prompt = prompt_val
 
 # Initialize Gemini
-genai.configure(api_key="AIzaSyBy0lq6xWF1JZoTUZ_K2Lqf9v5ShQhWHp0")
-model = genai.GenerativeModel("gemini-2.5-flash")
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel(GEMINI_MODEL)
 
 # Run evaluation for each pair
 results = []
