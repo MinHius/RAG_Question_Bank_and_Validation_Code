@@ -1,0 +1,123 @@
+[
+  {
+    "question": "Có được tự xóa malware nếu tìm thấy không?",
+    "ground_truth": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "generated_answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "evaluation": {
+      "relevance": 10,
+      "accuracy": 10,
+      "similarity": 10,
+      "summary": "The generated answer is an exact match to the ground truth. It fully and accurately addresses the question, providing correct and relevant advice. The information is complete and well-structured."
+    }
+  },
+  {
+    "question": "Mục đích của malware là gì?",
+    "ground_truth": "Mục tiêu của chúng rất đa dạng, từ đánh cắp dữ liệu, phá hoại hệ thống cho đến theo dõi người dùng.",
+    "generated_answer": "Chủ yếu là phá hoại hệ thống và làm chậm máy; hiếm khi được dùng để đánh cắp dữ liệu.",
+    "evaluation": {
+      "relevance": 10,
+      "accuracy": 3,
+      "similarity": 3,
+      "summary": "The generated answer is relevant to the question but contains a significant inaccuracy by stating that malware is rarely used for data theft, which contradicts a major purpose. It also misses the diverse nature of malware goals highlighted in the ground truth."
+    }
+  },
+  {
+    "question": "Nếu tắt máy tính thì malware có ngừng hoạt động không?",
+    "ground_truth": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "generated_answer": "Có — tắt máy sẽ hoàn toàn dừng và loại bỏ malware khỏi hệ thống.",
+    "evaluation": {
+      "relevance": 9,
+      "accuracy": 1,
+      "similarity": 0,
+      "summary": "The generated answer directly addresses the question but is factually incorrect, stating that turning off a computer removes malware, which is false. It completely lacks the crucial incident response advice provided by the ground truth, resulting in no similarity."
+    }
+  },
+  {
+    "question": "Phishing là gì?",
+    "ground_truth": "Phishing sử dụng tên miền Unicode, còn gọi là tấn công homograph IDN, là một hình thức lừa đảo trực tuyến trong đó kẻ tấn công tạo ra các tên miền trông giống hệt tên miền hợp pháp nhưng sử dụng các ký tự Unicode khác nhau. Mục tiêu là lừa người dùng truy cập vào các trang web giả mạo, từ đó đánh cắp thông tin nhạy cảm.",
+    "generated_answer": "Phishing là email lừa đảo gửi link giả mạo để lấy mật khẩu và thông tin tài khoản.",
+    "evaluation": {
+      "relevance": 9,
+      "accuracy": 10,
+      "similarity": 3,
+      "summary": "The generated answer provides a relevant and accurate general definition of phishing. However, it significantly differs from the ground truth, which specifically describes Unicode domain phishing (IDN homograph attacks) rather than general email-based phishing. The generated answer misses the specific technical detail presented in the ground truth."
+    }
+  },
+  {
+    "question": "Nếu di chuyển dữ liệu ra khỏi ổ cứng bị nhiễm malware rồi tháo ổ cứng thì sao?",
+    "ground_truth": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "generated_answer": "Di chuyển dữ liệu ra rồi tháo ổ cứng là an toàn; bạn có thể dùng dữ liệu bình thường trên máy khác mà không cần kiểm tra thêm.",
+    "evaluation": {
+      "relevance": 8,
+      "accuracy": 0,
+      "similarity": 0,
+      "summary": "The generated answer provides dangerously inaccurate advice, claiming it's safe to move and use data from an infected drive without further checks. This directly contradicts the ground truth, which correctly advises immediate IT intervention and extreme caution due to the risk of spreading malware. Its core recommendation is the opposite of the safe and recommended procedure."
+    }
+  },
+  {
+    "question": "Nếu máy của công ty dính malware thì sao?",
+    "ground_truth": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "generated_answer": "Bạn chỉ cần format lại máy hoặc thay ổ cứng; không cần báo IT nếu dữ liệu không quan trọng.",
+    "evaluation": {
+      "relevance": 6,
+      "accuracy": 0,
+      "similarity": 0,
+      "summary": "The generated answer is highly inaccurate and provides dangerous advice, especially for a company setting. It completely contradicts the ground truth by suggesting self-remediation and not reporting to IT, which could lead to severe security breaches."
+    }
+  },
+  {
+    "question": "Nếu malware lây nhiễm lên server thì phải làm gì?",
+    "ground_truth": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT.",
+    "generated_answer": "Không cần can thiệp phức tạp — khởi động lại server thường sẽ giải quyết vấn đề.",
+    "evaluation": {
+      "relevance": 2,
+      "accuracy": 0,
+      "similarity": 0,
+      "summary": "The generated answer is highly inaccurate and provides dangerous advice, suggesting a server restart resolves malware, which is fundamentally incorrect. It completely contradicts the best practice guidance provided in the ground truth, thus having no similarity and low relevance as a helpful solution."
+    }
+  },
+  {
+    "question": "Virus và malware có giống nhau không?",
+    "ground_truth": "Malware là viết tắt của 'malicious software' (phần mềm độc hại): Đây là một thuật ngữ bao trùm, chỉ bất kỳ chương trình hay đoạn mã nào được tạo ra với mục đích gây hại cho hệ thống máy tính, máy chủ, hoặc mạng máy tính. Mục tiêu của chúng rất đa dạng, từ đánh cắp dữ liệu, phá hoại hệ thống cho đến theo dõi người dùng.",
+    "generated_answer": "Virus và malware là hoàn toàn khác nhau; virus không được xếp vào malware.",
+    "evaluation": {
+      "relevance": 8,
+      "accuracy": 0,
+      "similarity": 0,
+      "summary": "The generated answer is fundamentally incorrect, stating that viruses and malware are completely different and viruses are not classified as malware. This directly contradicts the ground truth, which accurately describes malware as an umbrella term encompassing various malicious software, including viruses."
+    }
+  },
+  {
+    "question": "Malware - open file là gì?",
+    "ground_truth": "Malware - Open file có nghĩa là một tệp tin chứa mã độc (malware) được thiết kế để lây nhiễm và gây hại cho máy tính khi người dùng mở tệp đó.",
+    "generated_answer": "Malware - Open file có nghĩa là một tệp tin chứa mã độc (malware) được thiết kế để lây nhiễm và gây hại cho máy tính khi người dùng mở tệp đó.",
+    "evaluation": {
+      "relevance": 10,
+      "accuracy": 10,
+      "similarity": 10,
+      "summary": "The generated answer is an exact match to the ground truth. It perfectly addresses the question, providing an accurate and complete definition of 'Malware - open file'."
+    }
+  },
+  {
+    "question": "Airdrop fake tokens là gì?",
+    "ground_truth": "Airdrop token giả là các chương trình phân phối token tiền điện tử miễn phí được tạo ra bởi những kẻ lừa đảo nhằm đánh cắp thông tin cá nhân, khóa riêng tư hoặc tiền của người dùng.",
+    "generated_answer": "Là một chương trình quảng cáo hợp pháp để phân phối token miễn phí cho người dùng.",
+    "evaluation": {
+      "relevance": 2,
+      "accuracy": 0,
+      "similarity": 0,
+      "summary": "The generated answer completely misinterprets the question about 'fake token airdrops,' defining a legitimate airdrop instead. It is highly inaccurate as it contradicts the core meaning of a 'fake' airdrop and bears no similarity to the ground truth. It fails to address the deceptive nature specified in the question."
+    }
+  },
+  {
+    "question": "Malware là gì?",
+    "ground_truth": "Malware là viết tắt của 'malicious software' (phần mềm độc hại): Đây là một thuật ngữ bao trùm, chỉ bất kỳ chương trình hay đoạn mã nào được tạo ra với mục đích gây hại cho hệ thống máy tính, máy chủ, hoặc mạng máy tính.",
+    "generated_answer": "Malware là viết tắt của 'malicious software' (phần mềm độc hại): Đây là một thuật ngữ bao trùm, chỉ bất kỳ chương trình hay đoạn mã nào được tạo ra với mục đích gây hại cho hệ thống máy tính, máy chủ, hoặc mạng máy tính.",
+    "evaluation": {
+      "relevance": 10,
+      "accuracy": 10,
+      "similarity": 10,
+      "summary": "The generated answer is identical to the ground truth answer. It perfectly defines malware, explaining its origin and purpose. The answer is highly relevant, accurate, and complete."
+    }
+  }
+]

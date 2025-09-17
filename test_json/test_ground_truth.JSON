@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Có được tự xóa malware nếu tìm thấy không?",
+    "answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT."
+  },
+  {
+    "question": "Mục đích của malware là gì?",
+    "answer": "Mục tiêu của chúng rất đa dạng, từ đánh cắp dữ liệu, phá hoại hệ thống cho đến theo dõi người dùng."
+  },
+  {
+    "question": "Nếu tắt máy tính thì malware có ngừng hoạt động không?",
+    "answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT."
+  },
+  {
+    "question": "Phishing là gì?",
+    "answer": "Phishing sử dụng tên miền Unicode, còn gọi là tấn công homograph IDN, là một hình thức lừa đảo trực tuyến trong đó kẻ tấn công tạo ra các tên miền trông giống hệt tên miền hợp pháp nhưng sử dụng các ký tự Unicode khác nhau. Mục tiêu là lừa người dùng truy cập vào các trang web giả mạo, từ đó đánh cắp thông tin nhạy cảm."
+  },
+  {
+    "question": "Nếu di chuyển dữ liệu ra khỏi ổ cứng bị nhiễm malware rồi tháo ổ cứng thì sao?",
+    "answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT."
+  },
+  {
+    "question": "Nếu máy của công ty dính malware thì sao?",
+    "answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT."
+  },
+  {
+    "question": "Nếu malware lây nhiễm lên server thì phải làm gì?",
+    "answer": "Không tự ý khắc phục khi không có chuyên môn. Ngay lập tức: Tháo dây mạng LAN, ngắt kết nối Internet, báo cho IT Công ty, thực hiện đầy đủ theo hướng dẫn xử lý từ IT."
+  },
+  {
+    "question": "Virus và malware có giống nhau không?",
+    "answer": "Malware là viết tắt của 'malicious software' (phần mềm độc hại): Đây là một thuật ngữ bao trùm, chỉ bất kỳ chương trình hay đoạn mã nào được tạo ra với mục đích gây hại cho hệ thống máy tính, máy chủ, hoặc mạng máy tính. Mục tiêu của chúng rất đa dạng, từ đánh cắp dữ liệu, phá hoại hệ thống cho đến theo dõi người dùng."
+  },
+  {
+    "question": "Malware - open file là gì?",
+    "answer": "Malware - Open file có nghĩa là một tệp tin chứa mã độc (malware) được thiết kế để lây nhiễm và gây hại cho máy tính khi người dùng mở tệp đó."
+  },
+  {
+    "question": "Airdrop fake tokens là gì?",
+    "answer": "Airdrop token giả là các chương trình phân phối token tiền điện tử miễn phí được tạo ra bởi những kẻ lừa đảo nhằm đánh cắp thông tin cá nhân, khóa riêng tư hoặc tiền của người dùng."
+  },
+  {
+    "question": "Malware là gì?",
+    "answer": "Malware là viết tắt của 'malicious software' (phần mềm độc hại): Đây là một thuật ngữ bao trùm, chỉ bất kỳ chương trình hay đoạn mã nào được tạo ra với mục đích gây hại cho hệ thống máy tính, máy chủ, hoặc mạng máy tính."
+  }
+]

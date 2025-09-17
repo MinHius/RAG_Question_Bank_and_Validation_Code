@@ -1,0 +1,247 @@
+{
+  "Graph in page 22": [
+    {
+      "question": "Dựa vào sơ đồ, thông tin có những đặc điểm gì?",
+      "answer": "Theo sơ đồ, thông tin là **tài sản** có tính sở hữu, có **giá trị** trong trao đổi và sử dụng, và là **chìa khóa** cho sự phát triển và thành công trong kinh doanh.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Sơ đồ và các đoạn văn bản giải thích vai trò của thông tin trong kinh doanh như thế nào?",
+      "answer": "Thông tin là tài sản của công ty, là **đầu vào** giúp lãnh đạo điều hành và quản lý, từ đó quyết định sự thành công hay thất bại. Nó cũng giúp công ty **lập kế hoạch** kinh doanh và **thực hiện kế hoạch** đó hiệu quả.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Vai trò của thông tin trong kinh doanh được thể hiện qua những khía cạnh nào?",
+      "answer": "Vai trò của thông tin được thể hiện qua các khía cạnh: là **tài sản**, là **đầu vào** giúp lãnh đạo điều hành, và giúp **lập kế hoạch** kinh doanh hiệu quả.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Tại sao thông tin lại được coi là 'tài sản' và 'chìa khóa' cho sự thành công trong kinh doanh?",
+      "answer": "Thông tin được coi là **tài sản** vì nó có tính sở hữu và có giá trị trong trao đổi, sử dụng. Nó là **chìa khóa** vì nó giúp lãnh đạo quản lý, điều hành và đưa ra các quyết định quan trọng, từ đó quyết định sự phát triển và thành công của công ty.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Những điểm chính về thông tin được trình bày trong hình ảnh là gì?",
+      "answer": "Những điểm chính là: Thông tin là **tài sản** của công ty; là **đầu vào** quan trọng để quản lý và ra quyết định; và giúp công ty **lập kế hoạch** và thực hiện kế hoạch kinh doanh hiệu quả.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Những ai là người sử dụng thông tin và tại sao thông tin lại quan trọng với họ?",
+      "answer": "Thông tin được sử dụng bởi **ban lãnh đạo** của công ty để **điều hành** và **quản lý** một cách hiệu quả.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Nếu thiếu thông tin, công ty sẽ gặp phải những rủi ro gì?",
+      "answer": "Nếu thiếu thông tin, việc quản lý và điều hành có thể trở nên khó khăn, dẫn đến các quyết định sai lầm và làm giảm cơ hội **thành công** của công ty.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Làm thế nào để thông tin có thể trở thành 'tài sản' có giá trị?",
+      "answer": "Thông tin trở thành tài sản khi nó được thu thập, xử lý và sử dụng một cách có hiệu quả để mang lại **lợi ích** cho công ty, từ đó tạo ra **giá trị** trong trao đổi và sử dụng.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Mối quan hệ giữa 'lập kế hoạch' và 'thực hiện kế hoạch' với thông tin là gì?",
+      "answer": "Thông tin là **cơ sở** để **lập kế hoạch** kinh doanh đúng đắn. Sau đó, thông tin tiếp tục đóng vai trò quan trọng trong việc **giám sát** và **đánh giá** quá trình thực hiện kế hoạch, đảm bảo kế hoạch được thực hiện một cách hiệu quả.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    },
+    {
+      "question": "Thông tin khác với dữ liệu ở điểm nào?",
+      "answer": "Mặc dù không được đề cập trực tiếp trong sơ đồ, nhưng thông tin thường được hiểu là **dữ liệu đã được xử lý**, tổ chức và trình bày theo một cách có ý nghĩa, giúp người dùng đưa ra các quyết định sáng suốt.",
+      "graph_path": "graph_chart/slide22_graph.png"
+    }
+  ],
+  "Chart in page 23": [
+    {
+      "question": "Dựa vào sơ đồ, An toàn thông tin bao gồm những yếu tố nào?",
+      "answer": "An toàn thông tin được duy trì bởi ba yếu tố chính: **Tính Bảo mật (Confidentiality)**, **Tính Toàn vẹn (Integrity)** và **Tính Sẵn sàng (Availability)**.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Thế nào là 'Tính Bảo mật' trong An toàn thông tin?",
+      "answer": "Theo sơ đồ, **Tính Bảo mật (Confidentiality)** đảm bảo rằng thông tin chỉ có thể được truy cập bởi những người được cấp quyền tương ứng.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Ý nghĩa của 'Tính Toàn vẹn' là gì?",
+      "answer": "**Tính Toàn vẹn (Integrity)** là việc bảo vệ sự chính xác và hoàn chỉnh của thông tin. Nó đảm bảo thông tin chỉ được thay đổi bởi những người có quyền.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Tại sao 'Tính Sẵn sàng' lại quan trọng đối với An toàn thông tin?",
+      "answer": "**Tính Sẵn sàng (Availability)** đảm bảo rằng những người có quyền sử dụng có thể truy xuất thông tin khi họ cần, giúp duy trì hoạt động liên tục và hiệu quả.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Mục đích của việc đảm bảo An toàn thông tin là gì?",
+      "answer": "Mục đích của việc đảm bảo An toàn thông tin là để **kiểm soát** và **bảo vệ** thông tin, tránh việc bị vô tình hoặc cố ý **thay đổi**, **xóa** cũng như **tiết lộ** thông tin không được phép.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Sơ đồ giải thích mối liên hệ giữa các yếu tố 'Bảo mật', 'Toàn vẹn' và 'Sẵn sàng' như thế nào?",
+      "answer": "Ba yếu tố **Bảo mật (Confidentiality)**, **Toàn vẹn (Integrity)** và **Sẵn sàng (Availability)** tạo thành một **tam giác an ninh thông tin** (**The Information Security Triad**), thể hiện mối liên hệ chặt chẽ và tương hỗ nhau để đảm bảo an toàn thông tin.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Việc đảm bảo an toàn thông tin giúp ích gì cho một tổ chức?",
+      "answer": "Việc đảm bảo an toàn thông tin giúp một tổ chức **bảo vệ tài sản thông tin**, duy trì **sự tin cậy** của dữ liệu, và đảm bảo các **hoạt động kinh doanh** không bị gián đoạn do thiếu thông tin.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Biểu đồ này nói về điều gì?",
+      "answer": "Biểu đồ này minh họa cho 'Tam giác An ninh Thông tin' (The Information Security Triad), bao gồm ba nguyên tắc cốt lõi: **Tính Bảo mật (Confidentiality)**, **Tính Toàn vẹn (Integrity)** và **Tính Sẵn sàng (Availability)**. Đây là nền tảng của an toàn thông tin.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Tại sao biểu đồ lại có hình tam giác?",
+      "answer": "Hình tam giác cho thấy ba nguyên tắc **Bảo mật**, **Toàn vẹn** và **Sẵn sàng** có mối liên kết chặt chẽ và quan trọng như nhau. Nếu một trong ba yếu tố này bị ảnh hưởng, nó có thể tác động đến hai yếu tố còn lại, làm suy yếu tổng thể hệ thống an ninh thông tin. Khái niệm này còn được gọi là 'Bộ ba CIA'.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Các chữ cái trên hình tam giác đại diện cho điều gì?",
+      "answer": "Các chữ cái đại diện cho ba nguyên tắc cốt lõi của an toàn thông tin: **C** cho **Confidentiality** (Bảo mật), **I** cho **Integrity** (Toàn vẹn), và **A** cho **Availability** (Sẵn sàng).",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Điều gì sẽ xảy ra nếu một phần của tam giác an ninh bị vi phạm?",
+      "answer": "Một sự vi phạm ở một yếu tố thường ảnh hưởng đến các yếu tố khác. Ví dụ, nếu **Tính Toàn vẹn** bị xâm phạm (dữ liệu bị thay đổi), nó có thể ảnh hưởng đến **Tính Sẵn sàng** (dữ liệu trở nên không thể sử dụng) và gián tiếp dẫn đến vi phạm **Tính Bảo mật** nếu dữ liệu bị thay đổi được chia sẻ không đúng cách.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    },
+    {
+      "question": "Biểu đồ có liên hệ như thế nào với phần văn bản bên dưới nó?",
+      "answer": "Biểu đồ minh họa trực quan các khái niệm cốt lõi của 'Tam giác An ninh Thông tin'. Phần văn bản cung cấp định nghĩa chi tiết cho từng nguyên tắc (**Bảo mật**, **Toàn vẹn**, và **Sẵn sàng**) và giải thích mục đích chung của an toàn thông tin.",
+      "chart_path": "graph_chart/slide23_chart.png"
+    }
+  ],
+  "Graph in page 33": [
+    {
+      "question": "Những quy định chung về thiết bị cá nhân là gì?",
+      "answer": "Quy định chính là nhân viên **không được tự ý mang các thiết bị CNTT** (laptop, iPad, USB...) vào hoặc ra khỏi công ty. Để sử dụng, họ phải **đăng ký với IT**, xin phê duyệt của Ban ISO và cam kết bảo mật thông tin.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    },
+    {
+      "question": "Tại sao công ty lại hạn chế việc mang thiết bị CNTT cá nhân?",
+      "answer": "Công ty hạn chế việc này để kiểm soát các thiết bị có khả năng **kết nối mạng** (dây/không dây), **lưu trữ hoặc truyền dữ liệu** (USB), hoặc làm **cầu nối giữa các thiết bị khác** (switch, router...). Việc này nhằm bảo vệ an toàn thông tin và ngăn chặn rò rỉ dữ liệu.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    },
+    {
+      "question": "Những loại thiết bị cá nhân nào bị hạn chế sử dụng?",
+      "answer": "Các loại thiết bị bị hạn chế bao gồm: thiết bị có khả năng **kết nối trực tiếp hoặc gián tiếp vào mạng**; thiết bị có khả năng **lưu trữ hoặc truyền dữ liệu**; và thiết bị là **cầu nối giữa các thiết bị khác**.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    },
+    {
+      "question": "Làm thế nào để được sử dụng thiết bị cá nhân tại công ty?",
+      "answer": "Để sử dụng thiết bị cá nhân, bạn phải thực hiện quy trình **đăng ký với IT**, xin **phê duyệt của Ban ISO** và ký **cam kết bảo mật thông tin**.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    },
+    {
+      "question": "Hậu quả của việc tự ý mang thiết bị cá nhân vào công ty là gì?",
+      "answer": "Việc tự ý mang thiết bị cá nhân vào công ty có thể dẫn đến **vi phạm các quy định bảo mật** của công ty, gây ra nguy cơ **rò rỉ thông tin**, mất an toàn dữ liệu và có thể bị xử lý theo quy định của công ty.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    },
+    {
+      "question": "Thiết bị có khả năng lưu trữ hoặc truyền dữ liệu là những loại nào?",
+      "answer": "Theo sơ đồ, các thiết bị này bao gồm **USB** và các loại tương tự có khả năng lưu trữ và chuyển dữ liệu.",
+      "graph_path": "graph_chart/slide33_graph.png"
+    }
+  ],
+  "Graph in page 35": [
+    {
+      "question": "Những quy định chung về truy cập mạng là gì?",
+      "answer": "Các quy định chung về truy cập mạng bao gồm: chỉ **truy cập dữ liệu được phép** thông qua phân quyền; **không sử dụng mạng nội bộ** cho mục đích ngoài công việc; và **không tự ý cài đặt máy chủ**.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Quy định về 'Truy cập dữ liệu' có ý nghĩa gì?",
+      "answer": "Quy định này nhấn mạnh rằng nhân viên chỉ được **truy cập thông tin/dữ liệu** đã được **cấp phép** và phải tuân thủ **phân quyền** đã được thiết lập.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Tại sao không được sử dụng mạng nội bộ cho mục đích ngoài công việc?",
+      "answer": "Việc sử dụng mạng nội bộ cho mục đích ngoài công việc có thể làm **giảm băng thông**, gây ảnh hưởng đến hiệu suất làm việc của hệ thống và **tăng nguy cơ** bị tấn công hoặc rò rỉ dữ liệu.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Những hành vi nào bị nghiêm cấm theo sơ đồ?",
+      "answer": "Các hành vi bị nghiêm cấm là: **vượt tường lửa**, **sử dụng mạng cho mục đích cá nhân** và **sử dụng phần mềm hacker**.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Hành vi 'Vượt tường lửa' có nghĩa là gì?",
+      "answer": "Hành vi này là việc sử dụng **phần mềm để vượt qua Proxy hoặc Firewall** của công ty, một hành vi bị cấm để duy trì an ninh mạng nội bộ.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Tại sao công ty lại cấm sử dụng phần mềm hacker?",
+      "answer": "Công ty nghiêm cấm sử dụng hoặc thử nghiệm bất kỳ dạng **phần mềm Hacker** nào để bảo vệ hệ thống thông tin khỏi các cuộc tấn công và xâm nhập trái phép.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Hành vi 'Mục đích cá nhân' được định nghĩa như thế nào trong sơ đồ?",
+      "answer": "Hành vi 'Mục đích cá nhân' là việc **lợi dụng hạ tầng mạng, thiết bị và tài nguyên** của Công ty và khách hàng để phục vụ cho các **mục đích ngoài công việc**.",
+      "graph_path": "graph_chart/slide35_graph.png"
+    },
+    {
+      "question": "Những loại máy chủ nào không được tự ý cài đặt?",
+      "answer": "Nhân viên không được tự ý cài đặt các máy chủ cung cấp dịch vụ như **Web, FTP, Proxy, Firewall, DC, DNS, DHCP**...",
+      "graph_path": "graph_chart/slide35_graph.png"
+    }
+  ],
+  "Chart in page 45": [
+    {
+      "question": "Những hậu quả nào có thể xảy ra khi xảy ra sự cố an toàn thông tin?",
+      "answer": "Theo sơ đồ, khi xảy ra sự cố ATTT, công ty có thể gặp phải các hậu quả sau: **rò rỉ thông tin** của công ty và khách hàng ra bên ngoài; **tốn thời gian, tiền bạc** để xử lý; **mất lòng tin** đối với khách hàng; **thiệt hại lớn** phải đền bù và **ảnh hưởng đến uy tín, hình ảnh** của công ty.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Sự cố ATTT dẫn đến những rủi ro nào cho công ty và khách hàng?",
+      "answer": "Sự cố ATTT có thể dẫn đến rò rỉ thông tin, làm công ty tốn kém chi phí, mất lòng tin của khách hàng, gây thiệt hại lớn và ảnh hưởng đến uy tín, hình ảnh của công ty.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Sơ đồ này nói về điều gì?",
+      "answer": "Sơ đồ này trình bày về việc **Xử lý sự cố ATTT** (An toàn thông tin), cụ thể là các hậu quả của sự cố và những việc cần làm khi sự cố xảy ra.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Khi sự cố ATTT xảy ra, việc đầu tiên cần làm là gì?",
+      "answer": "Việc đầu tiên cần làm là **thông báo ngay lập tức** cho Trưởng ban ISO và các thành viên ban ISO theo danh sách thông tin liên lạc khi xảy ra sự cố trong vòng 2 giờ để giải quyết.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Trách nhiệm của các bộ phận liên quan khi xử lý sự cố là gì?",
+      "answer": "Các bộ phận liên quan có trách nhiệm **xác định nguyên nhân**, đưa ra **hành động khắc phục** và **phòng ngừa** để tránh lặp lại sự cố.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Mọi nhân viên có trách nhiệm gì trong việc xử lý sự cố ATTT?",
+      "answer": "Theo sơ đồ, **mọi nhân viên** phải có **trách nhiệm** trong việc xử lý sự cố về an toàn thông tin.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Mức xử lý kỷ luật đối với người vi phạm ATTT là gì?",
+      "answer": "Mức xử lý kỷ luật người vi phạm ATTT sẽ theo quy định tại Nội quy lao động của công ty. Mức kỷ luật cao nhất là **sa thải**.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Tại sao công ty có thể yêu cầu đền bù tổn thất?",
+      "answer": "Công ty có quyền yêu cầu đền bù tổn thất dựa trên **mức xử phạt hành chính** và cam kết trong **bộ NDA** đã ký với công ty.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Những câu hỏi liên quan đến cách thiết kế biểu đồ: Biểu đồ này sử dụng màu sắc để làm gì?",
+      "answer": "Biểu đồ này sử dụng **màu sắc** để phân biệt các khu vực theo mức độ bảo mật. Cụ thể, màu **đỏ** cho mức độ **cao**, màu **vàng** cho mức độ **trung bình** và khu vực **không gắn màu** cho mức độ **thấp**.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Cách bố trí thông tin trên biểu đồ có ý nghĩa gì?",
+      "answer": "Thông tin được bố trí theo hai phần rõ ràng: **Phân vùng ATTT** (An toàn thông tin) ở bên trái và **Quy định ATTT theo vùng** ở bên phải. Điều này giúp người đọc dễ dàng đối chiếu phân loại khu vực với các quy định cụ thể áp dụng cho từng khu vực đó.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    },
+    {
+      "question": "Tại sao lại có hình ảnh hộp vuông với chữ 'KHU VỰC HẠN CHẾ TIẾP CẬN'?",
+      "answer": "Hình ảnh này được thêm vào để **nhấn mạnh** và **minh họa** rõ ràng hơn cho việc các khu vực màu Đỏ và Vàng là những nơi bị hạn chế tiếp cận. Cả hai khu vực này đều được dán nhãn là 'RESTRICTED AREA' (Khu vực hạn chế tiếp cận) để tăng tính nhận diện và cảnh báo.",
+      "chart_path": "graph_chart/slide45_chart.png"
+    }
+  ]
+}
