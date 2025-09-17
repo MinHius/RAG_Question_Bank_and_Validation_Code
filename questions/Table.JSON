@@ -1,0 +1,776 @@
+{
+  "Table in page 26": [
+    {
+      "question": "Những loại thông tin nào được xem là có mức độ bảo mật cao nhất?",
+      "answer": "Theo bảng, thông tin **Tuyệt mật** (Secret) là loại thông tin có mức độ bảo mật cao nhất. Nếu bị rò rỉ, nó có thể gây tổn hại nghiêm trọng đến uy tín và lợi thế cạnh tranh của công ty.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Thông tin về lương, thưởng của nhân viên thuộc loại nào?",
+      "answer": "Thông tin về lương, thưởng và dữ liệu cá nhân của nhân viên được xếp vào loại **Tuyệt mật**.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Thỏa thuận với đối tác (NCC) hoặc khách hàng thuộc phân loại thông tin nào?",
+      "answer": "Các thỏa thuận như hợp đồng với khách hàng hoặc thỏa thuận an toàn thông tin với nhà cung cấp (NCC) thuộc loại thông tin **Mật** (Confidential).",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Định nghĩa của thông tin 'Nội bộ' là gì?",
+      "answer": "Thông tin **Nội bộ** (Internal use) là loại thông tin chỉ được sử dụng trong nội bộ công ty và không được phép tiết lộ ra bên ngoài. Nó thường được chia sẻ trong phạm vi một nhóm hoặc toàn bộ nhân viên.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Các loại thông tin nào có thể công bố rộng rãi?",
+      "answer": "Thông tin **Công khai** (Public) là loại thông tin có thể được công bố rộng rãi trên các phương tiện truyền thông đại chúng như quảng cáo, bản tin, hoặc website của công ty.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Một ví dụ về thông tin 'Tuyệt mật' là gì?",
+      "answer": "Một ví dụ điển hình là chiến lược kinh doanh của công ty hoặc dữ liệu tài chính của công ty và khách hàng. Đây là những thông tin cốt lõi, có tính quyết định đến sự sống còn của doanh nghiệp.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Hồ sơ sản xuất và gia công phần mềm được xếp vào loại thông tin nào?",
+      "answer": "Hồ sơ sản xuất và gia công phần mềm được xếp vào loại thông tin **Mật**.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Việc phân loại thông tin 'Nội bộ' khác gì so với 'Mật'?",
+      "answer": "Sự khác biệt chính là mức độ nhạy cảm và đối tượng được phép tiếp cận. Thông tin **Mật** thường nhạy cảm hơn và giới hạn chặt chẽ hơn, trong khi thông tin **Nội bộ** có thể được truy cập rộng rãi hơn trong phạm vi nhân viên và không gây tổn hại lớn nếu bị rò rỉ.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Tại sao việc phân loại thông tin là quan trọng?",
+      "answer": "Việc phân loại thông tin là quan trọng để xác định mức độ rủi ro khi thông tin bị rò rỉ, từ đó áp dụng các biện pháp bảo vệ và kiểm soát quyền truy cập phù hợp, đảm bảo an toàn cho dữ liệu của công ty.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Thông tin nào được coi là Tuyệt mật?",
+      "answer": "Thông tin Tuyệt mật là thông tin rất quan trọng, nếu bị rò rỉ sẽ làm giảm uy tín và lợi thế cạnh tranh của công ty. Ví dụ: chiến lược kinh doanh, kế hoạch kinh doanh, dữ liệu tài chính, lương, thưởng và dữ liệu cá nhân của nhân viên.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Mục đích của việc phân loại thông tin là gì?",
+      "answer": "Mục đích của việc phân loại thông tin là để xác định mức độ nhạy cảm của dữ liệu, từ đó có biện pháp bảo vệ phù hợp và giới hạn quyền truy cập cho những người có trách nhiệm.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Sự khác biệt giữa thông tin Mật và Tuyệt mật là gì?",
+      "answer": "Thông tin **Tuyệt mật** là loại thông tin tối quan trọng, nếu rò rỉ sẽ gây tổn hại nghiêm trọng đến công ty. Trong khi đó, thông tin **Mật** là thông tin nhạy cảm, cần được bảo mật nhưng mức độ ảnh hưởng khi rò rỉ không nghiêm trọng bằng Tuyệt mật.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Những loại thông tin nào có thể công khai?",
+      "answer": "Thông tin **Công khai** là loại thông tin có thể công bố rộng rãi trên các phương tiện truyền thông đại chúng. Ví dụ: tài liệu quảng cáo, thông tin báo chí, bản tin công ty hoặc thông tin đăng tải trên website công ty.",
+      "table_path": "table/slide26_table.png"
+    },
+    {
+      "question": "Ai được phép tiếp cận thông tin 'Nội bộ'?",
+      "answer": "Thông tin **Nội bộ** chỉ được sử dụng trong phạm vi nội bộ công ty và không được tiết lộ ra bên ngoài. Ví dụ: tất cả hoặc một nhóm nhân viên có thể truy cập thông tin này.",
+      "table_path": "table/slide26_table.png"
+    }
+  ],
+  "Table in page 29": [
+    {
+      "question": "Những mục đích được cho phép để sử dụng thông tin là gì?",
+      "answer": "Thông tin chỉ nên được sử dụng cho **công việc liên quan** và để **giữ bí mật**, không tiết lộ thông tin nội bộ của công ty.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Những hành vi nào được xem là sử dụng thông tin sai mục đích?",
+      "answer": "Sử dụng thông tin sai mục đích bao gồm: sử dụng thông tin mật cho **mục đích cá nhân** và **sao chép** hoặc lưu trữ thông tin lên các dịch vụ lưu trữ công cộng hoặc cá nhân.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Các quy tắc để lưu trữ thông tin an toàn là gì?",
+      "answer": "Thông tin quan trọng phải được lưu trữ trên **Cloud hoặc Server của Công ty** (như 1Office, Drive, Git, Confluence, Jira...) và **tuyệt đối không** được lưu trữ trên ổ cứng cá nhân hoặc các thiết bị di động.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Nguyên tắc bảo mật dự án được nêu ra như thế nào?",
+      "answer": "Nguyên tắc bảo mật dự án yêu cầu **bảo mật tuyệt đối** thông tin ở mức cao nhất.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Những hạn chế nào đối với việc trao đổi và giao tiếp thông tin?",
+      "answer": "Có hai hạn chế chính: **Không trao đổi, giao tiếp** các nội dung công việc, dự án ngoài khu vực công ty và **không trao đổi mức lương, bảng lương** cho bất kỳ ai với bất cứ mục đích nào.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Tại sao việc sử dụng thông tin cá nhân bị cấm?",
+      "answer": "Sử dụng thông tin mật cho mục đích cá nhân là một hành vi **sử dụng sai mục đích**, có thể dẫn đến việc thông tin bị rò rỉ hoặc sử dụng sai trái, gây ảnh hưởng xấu đến công ty.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Việc lưu trữ thông tin trên các nền tảng công cộng có rủi ro gì?",
+      "answer": "Lưu trữ thông tin trên các nền tảng công cộng hoặc cá nhân làm tăng nguy cơ **thông tin bị đánh cắp** hoặc **tiết lộ** ra ngoài, vi phạm các quy tắc bảo mật của công ty.",
+      "table_path": "table/slide29_table.png"
+    },
+    {
+      "question": "Những nội dung nào tuyệt đối không được trao đổi, thảo luận?",
+      "answer": "Tuyệt đối không được trao đổi **các nội dung công việc, dự án** ngoài khu vực Công ty và **mức lương, bảng lương** cho bất kỳ ai.",
+      "table_path": "table/slide29_table.png"
+    }
+  ],
+  "Table in page 30": [
+    {
+      "question": "Những quy định chính về quản lý và sử dụng tài khoản, mật khẩu là gì?",
+      "answer": "Các quy định chính bao gồm: **Thay đổi mật khẩu** ngay lần đầu đăng nhập, **Quản lý tài khoản, mật khẩu** bằng cách không sử dụng chung mật khẩu và không chia sẻ, và **Bàn giao tài khoản Admin** khi nghỉ việc.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Tại sao phải thay đổi mật khẩu ngay lần đầu đăng nhập?",
+      "answer": "Việc thay đổi mật khẩu ngay lần đầu đăng nhập là để **bảo vệ tài khoản** và đảm bảo **an toàn thông tin** cho toàn bộ hệ thống.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Trong quản lý tài khoản và mật khẩu, những điều gì cần tránh?",
+      "answer": "Cần tránh **sử dụng cùng một mật khẩu** cho nhiều tài khoản và **tuyệt đối không chia sẻ, cho mượn** tài khoản, mật khẩu đã được Công ty cấp.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Quy trình bàn giao tài khoản Admin khi nhân viên nghỉ việc diễn ra như thế nào?",
+      "answer": "Khi nhân viên nghỉ việc, bộ phận **HR và IT** sẽ xác minh toàn bộ danh sách tài khoản quản trị mà cá nhân đó đang nắm giữ. Sau đó, họ sẽ thực hiện **thu hồi**, **đổi mật khẩu**, **chuyển giao quyền sở hữu** và thay đổi số điện thoại nếu có.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Nếu không bàn giao tài khoản khi nghỉ việc sẽ xảy ra hậu quả gì?",
+      "answer": "Nếu không bàn giao đầy đủ thông tin truy cập, công ty có thể đối mặt với **rủi ro bảo mật** và gặp khó khăn trong việc quản lý, vận hành các hệ thống quan trọng, đặc biệt là các tài khoản quản trị.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Trách nhiệm của nhân sự khi nghỉ việc đối với tài khoản là gì?",
+      "answer": "Khi nghỉ việc, nhân sự có trách nhiệm **bàn giao đầy đủ thông tin truy cập** của các tài khoản quản trị cho Công ty.",
+      "table_path": "table/slide30_table.png"
+    },
+    {
+      "question": "Tại sao việc không chia sẻ mật khẩu lại quan trọng?",
+      "answer": "Việc không chia sẻ mật khẩu là một nguyên tắc cơ bản để đảm bảo **tính bảo mật** của tài khoản, tránh việc người không có quyền truy cập và sử dụng trái phép, gây ra các rủi ro về an toàn thông tin.",
+      "table_path": "table/slide30_table.png"
+    }
+  ],
+  "Table in page 31": [
+    {
+      "question": "Cột 1 nói về nội dung gì?",
+      "answer": "Cột 1 quy định rằng nhân viên **không được tự ý tháo lắp, sửa chữa** thiết bị. Thay vào đó, họ phải **liên hệ bộ phận IT** để được hỗ trợ.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Tôi có được tự sửa máy tính khi nó bị hỏng không?",
+      "answer": "Không. Bạn **không được tự ý sửa chữa**. Khi thiết bị CNTT có vấn đề, bạn cần **liên hệ bộ phận IT** để họ hỗ trợ cài đặt hoặc sửa chữa.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Cột 2 quy định về việc gì?",
+      "answer": "Cột 2 quy định về việc **tắt máy khi ra về**. Bạn phải tắt máy tính và các thiết bị khác trước khi rời khỏi nơi làm việc, trừ khi có báo cáo cần bật máy qua đêm.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Tại sao tôi phải tắt máy tính trước khi ra về?",
+      "answer": "Việc tắt máy tính giúp **tiết kiệm năng lượng** và **đảm bảo an toàn** cho thiết bị và dữ liệu. Chỉ nên bật máy qua đêm nếu có báo cáo đặc biệt.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Cột 3 hướng dẫn tôi làm gì?",
+      "answer": "Cột 3 hướng dẫn bạn **khóa máy tính khi rời khỏi vị trí làm việc**. Bạn có thể sử dụng tổ hợp phím **Windows + L** để khóa máy ngay lập tức.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Khóa máy tính khi rời khỏi chỗ làm việc có tác dụng gì?",
+      "answer": "Việc khóa máy tính giúp **tránh kẻ gian lợi dụng truy cập trái phép** vào máy tính của bạn khi bạn không có mặt.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Cột 4 nói về quy tắc nào?",
+      "answer": "Cột 4 quy định về việc **không chia sẻ thông tin** từ máy tính cá nhân. Bạn không được chia sẻ những thông tin chưa được đăng ký.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Tại sao không được chia sẻ thông tin từ máy tính cá nhân?",
+      "answer": "Đây là một quy tắc quan trọng để **bảo mật thông tin** của công ty, tránh rò rỉ dữ liệu nhạy cảm hoặc độc quyền ra bên ngoài.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Cột 5 có quy định gì?",
+      "answer": "Cột 5 quy định về việc **không sử dụng chung máy tính cá nhân**. Mỗi nhân viên phải sử dụng máy tính cá nhân riêng biệt và không được chia sẻ thiết bị với người khác để đảm bảo **An toàn thông tin (ATTT)**.",
+      "table_path": "table/slide31_table.png"
+    },
+    {
+      "question": "Tôi có thể cho đồng nghiệp mượn máy tính của mình không?",
+      "answer": "Không. Bạn **không được chia sẻ** máy tính cá nhân của mình với người khác. Mỗi người cần sử dụng thiết bị riêng biệt để đảm bảo an toàn thông tin.",
+      "table_path": "table/slide31_table.png"
+    }
+  ],
+  "Table in page 32": [
+    {
+      "question": "Những quy định chung về quản lý phần mềm là gì?",
+      "answer": "Theo sơ đồ, các quy định chính là: chỉ **sử dụng và cài đặt phần mềm có trong danh mục được phép** của công ty; **tuyệt đối không sử dụng hoặc thử nghiệm** phần mềm thăm dò, theo dõi, tấn công; và **nghiêm cấm sử dụng các phần mềm cụ thể** như Winny, Share, SoftEther và VNC.",
+      "table_path": "table/slide32_table.png"
+    },
+    {
+      "question": "Tại sao công ty lại cấm sử dụng các phần mềm như Winny, Share, SoftEther và VNC?",
+      "answer": "Công ty nghiêm cấm sử dụng các phần mềm này vì chúng có thể gây ra **rủi ro bảo mật**. Cụ thể, Winny và Share là phần mềm chia sẻ file ngang hàng (P2P), SoftEther là phần mềm VPN ảo và VNC là phần mềm điều khiển từ xa. Chúng đều có thể được sử dụng để truy cập và truyền dữ liệu nhạy cảm, làm rò rỉ thông tin mật.",
+      "table_path": "table/slide32_table.png"
+    },
+    {
+      "question": "Công ty cho phép nhân viên cài đặt phần mềm nào?",
+      "answer": "Công ty chỉ cho phép nhân viên cài đặt và sử dụng phần mềm có trong **danh mục được phép**.",
+      "table_path": "table/slide32_table.png"
+    },
+    {
+      "question": "Phần mềm thăm dò, theo dõi, tấn công là gì và tại sao chúng bị cấm?",
+      "answer": "Đây là các loại phần mềm độc hại được thiết kế để **thu thập thông tin, giám sát** hoạt động của người dùng hoặc **tấn công** vào hệ thống. Chúng bị cấm để bảo vệ dữ liệu và hệ thống thông tin của công ty khỏi các mối đe dọa từ bên ngoài.",
+      "table_path": "table/slide32_table.png"
+    },
+    {
+      "question": "Việc cài đặt phần mềm không có trong danh mục được phép có rủi ro gì?",
+      "answer": "Việc này có thể làm tăng nguy cơ **phần mềm độc hại** xâm nhập vào hệ thống, dẫn đến rò rỉ thông tin, làm hỏng dữ liệu hoặc làm gián đoạn hoạt động của công ty.",
+      "table_path": "table/slide32_table.png"
+    },
+    {
+      "question": "SoftEther và VNC được sử dụng cho mục đích gì và tại sao lại bị cấm?",
+      "answer": "**SoftEther** là phần mềm VPN ảo và **VNC** là phần mềm điều khiển từ xa. Chúng bị cấm trên các máy tính chứa thông tin mật vì có thể tạo ra các kết nối không an toàn, tiềm ẩn nguy cơ **kẻ xấu truy cập và đánh cắp thông tin** từ xa.",
+      "table_path": "table/slide32_table.png"
+    }
+  ],
+  "Table in page 34": [
+    {
+      "question": "Những nguyên tắc an toàn thông tin khi làm việc từ xa là gì?",
+      "answer": "Các nguyên tắc an toàn thông tin khi làm việc từ xa bao gồm: **quản lý thiết bị làm việc**, **kết nối mạng an toàn**, **bảo vệ dữ liệu và phần mềm**, và tuân thủ **quy định làm việc**.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Tôi nên sử dụng thiết bị làm việc nào khi làm việc từ xa?",
+      "answer": "Bạn nên sử dụng **thiết bị được cấp bởi công ty** hoặc đã được đăng ký với IT và Ban ISO, đồng thời cam kết bảo mật. Khi rời khỏi chỗ, bạn phải **khóa màn hình máy tính**.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Những quy định về kết nối mạng khi làm việc từ xa là gì?",
+      "answer": "Bạn **không được sử dụng Wi-Fi công cộng**. Ưu tiên sử dụng **Wi-Fi cá nhân có mật khẩu mạnh** (WPA2/WPA3). Khi truy cập hệ thống nội bộ, cần sử dụng **kết nối qua VPN của công ty**.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Tại sao không được sử dụng Wi-Fi công cộng khi làm việc từ xa?",
+      "answer": "Wi-Fi công cộng thường không an toàn, dễ bị kẻ xấu **theo dõi** hoặc **đánh cắp thông tin** cá nhân và công việc.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Tôi cần lưu ý gì về dữ liệu và phần mềm khi làm việc từ xa?",
+      "answer": "Bạn **không được lưu trữ dữ liệu nhạy cảm** trên thiết bị hoặc cloud cá nhân (như Google Drive, Dropbox). Ngoài ra, bạn cũng **không được cài phần mềm lạ** và chỉ nên sử dụng phần mềm được phê duyệt. Khi gửi file nội bộ, cần sử dụng các kênh đã được mã hóa và hạn chế gửi qua email cá nhân.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Khi làm việc từ xa, tôi nên làm việc ở đâu?",
+      "answer": "Bạn nên làm việc ở **nơi riêng tư**, không để người khác nhìn vào màn hình máy tính của bạn.",
+      "table_path": "table/slide34_table.png"
+    },
+    {
+      "question": "Những quy định làm việc từ xa nào khác cần tuân thủ?",
+      "answer": "Ngoài việc làm ở nơi riêng tư, bạn cần **không chia sẻ thông tin công việc** với người không liên quan (kể cả gia đình). Đồng thời, bạn phải **tuân thủ chính sách an toàn thông tin** của công ty như khi làm tại văn phòng.",
+      "table_path": "table/slide34_table.png"
+    }
+  ],
+  "Table in page 36": [
+    {
+      "question": "Những yêu cầu nghiệp vụ đối với kiểm soát truy cập là gì?",
+      "answer": "Yêu cầu nghiệp vụ đối với kiểm soát truy cập bao gồm **thiết lập quyền truy cập**, **rà soát định kỳ**, **loại bỏ quyền truy cập** khi không cần thiết và **kiểm soát quyền truy cập** dựa trên nhu cầu công việc.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Quyền truy cập được thiết lập dựa trên những yếu tố nào?",
+      "answer": "Quyền truy cập được thiết lập dựa trên **nhu cầu nghiệp vụ** và **yêu cầu An toàn Thông tin (ATTT)**, đảm bảo thông tin chỉ được cấp đủ cho người sử dụng.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Tại sao cần rà soát quyền truy cập định kỳ?",
+      "answer": "Quyền truy cập phải được **rà soát định kỳ 6 tháng/lần** để đảm bảo tính **phù hợp và an toàn**, tránh việc có những tài khoản không còn cần thiết nhưng vẫn có quyền truy cập.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Khi nào thì quyền truy cập nên được loại bỏ?",
+      "answer": "Quyền truy cập nên được **loại bỏ** khi người dùng **không còn nhu cầu sử dụng**, nhằm tránh rủi ro bảo mật.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Việc kiểm soát quyền truy cập cần lưu ý những gì?",
+      "answer": "Việc kiểm soát quyền truy cập phải dựa trên **nhu cầu công việc**. Các trường hợp **ngoại lệ** cần được **phê duyệt thích hợp**.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Để quản lý truy cập hệ ứng dụng và cơ sở dữ liệu, cần thực hiện những gì?",
+      "answer": "Để quản lý hiệu quả, cần thực hiện ba việc: **phân quyền phù hợp** với chức năng, **duy trì điều kiện kết nối mạng nội bộ** an toàn và **thay đổi/xóa các tài khoản mặc định** trước khi sử dụng.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Thế nào là 'Phân quyền Phù hợp'?",
+      "answer": "'Phân quyền Phù hợp' là việc cấp quyền truy cập phải **phù hợp với chức năng và nhiệm vụ** của người sử dụng, tuân theo nguyên tắc quyền tối thiểu cần thiết.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Cần làm gì để duy trì 'Điều kiện kết nối mạng nội bộ'?",
+      "answer": "Cần **cập nhật bản vá lỗi**, **quét virus**, và **quy hoạch hạ tầng** để đảm bảo kết nối mạng nội bộ luôn an toàn và hiệu quả.",
+      "table_path": "table/slide36_table.png"
+    },
+    {
+      "question": "Tại sao phải thay đổi 'Tài khoản Mặc Định'?",
+      "answer": "Các tài khoản mặc định của nhà sản xuất thường có mật khẩu dễ đoán và là mục tiêu tấn công của kẻ xấu. Do đó, chúng phải được **thay đổi hoặc xóa bỏ** trước khi đưa vào sử dụng để tránh rủi ro bảo mật.",
+      "table_path": "table/slide36_table.png"
+    }
+  ],
+  "Table in page 39": [
+    {
+      "question": "Mục đích của các quy định về sử dụng email công ty là gì?",
+      "answer": "Mục đích chính của các quy định này là để **đảm bảo an toàn thông tin** trong hoạt động trao đổi qua email, **bảo vệ tài sản thông tin** của công ty và **giảm thiểu rủi ro** rò rỉ, mất mát hoặc bị khai thác trái phép.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Những quy định về 'Email công ty' là gì?",
+      "answer": "Nhân viên chỉ được sử dụng email do công ty cấp để **trao đổi công việc** và với khách hàng. Tuyệt đối **cấm sử dụng email cá nhân** hoặc email hệ thống không được phép.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Những quy tắc chung khi gửi email là gì?",
+      "answer": "Khi gửi email, cần **kiểm tra kỹ** các trường TO, CC, BCC, tiêu đề, nội dung và tệp đính kèm. Đối với file đính kèm, cần **mã hóa** hoặc đặt mật khẩu và **không gửi mật khẩu trong cùng một email**.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Những hành vi nào bị nghiêm cấm khi sử dụng email?",
+      "answer": "Các hành vi bị cấm bao gồm: **gửi email test**; sử dụng **email người khác**; **giả mạo, theo dõi, tấn công**; gửi **email xúc phạm, phản cảm, vi phạm luật pháp**; và **gửi thư rác**.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Những trường hợp đăng ký hợp lệ được nêu ra là gì?",
+      "answer": "bảng nghiêm cấm **sử dụng email công ty** để đăng ký vào các diễn đàn, mạng xã hội, dịch vụ không phục vụ công việc.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Những cảnh báo nào đối với email lạ?",
+      "answer": "Khi nhận email lạ, cần **không mở email từ địa chỉ lạ**, **xóa ngay lập tức** nếu nghi ngờ có email giả mạo hoặc độc hại, và **không mở tệp đính kèm** hay **nhấp vào các đường link** từ người gửi không quen.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Làm thế nào để bảo vệ tài khoản email?",
+      "answer": "Để bảo vệ tài khoản email, cần đặt **mật khẩu ít nhất 8 ký tự** (gồm chữ hoa, thường, số, ký tự đặc biệt), **thay đổi định kỳ** (ít nhất 90 ngày) và **không chia sẻ mật khẩu** với bất kỳ ai.",
+      "table_path": "table/slide39_table.png"
+    },
+    {
+      "question": "Tại sao không được gửi mật khẩu và file đính kèm trong cùng một email?",
+      "answer": "Việc này tiềm ẩn rủi ro rất cao. Nếu email bị đánh cắp, kẻ gian có thể **dễ dàng truy cập vào nội dung** của file đính kèm. Mã hóa file và gửi mật khẩu qua kênh khác sẽ an toàn hơn.",
+      "table_path": "table/slide39_table.png"
+    }
+  ],
+  "Table in page 40": [
+    {
+      "question": "Những nguyên tắc chính để phòng chống virus là gì?",
+      "answer": "Để phòng chống virus, cần **cập nhật hệ thống thường xuyên**, và khi **phát hiện virus**, phải có các hành động xử lý ngay lập tức. Sau đó là quy định về việc **lưu vết**.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Tôi cần làm gì khi phát hiện máy tính bị nhiễm virus?",
+      "answer": "Ngay lập tức, bạn phải **tháo dây mạng LAN** và **ngắt kết nối Internet**. Sau đó, bạn cần **báo cáo cho IT** của Công ty và thực hiện đầy đủ theo hướng dẫn xử lý từ bộ phận này.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Tại sao việc cập nhật hệ thống lại quan trọng trong phòng chống virus?",
+      "answer": "Việc **luôn cập nhật các bản vá lỗi** cho hệ điều hành và phần mềm giúp **ngăn chặn các lỗ hổng bảo mật** có thể bị virus khai thác để tấn công hệ thống.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Những nguyên tắc khi vận chuyển thông tin là gì?",
+      "answer": "Theo bảng, khi vận chuyển thông tin cần: sử dụng **dịch vụ vận chuyển uy tín**, **xác nhận** với người nhận về thời gian và nội dung tài liệu. Đối với nhân viên vận chuyển, cần **tránh uống rượu bia** và phải **luôn mang theo người** tài liệu/thông tin mật để tránh thất lạc hoặc rò rỉ.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Những lưu ý nào khi xử lý sự cố virus?",
+      "answer": "Khi xử lý sự cố virus, bạn **không được tự ý khắc phục** nếu không có chuyên môn. Hạn chế tối đa việc để lây lan virus sang các hệ thống khác.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Tôi có thể cho phép người khác vận chuyển thông tin mật không?",
+      "answer": "Bạn có thể, nhưng phải sử dụng **dịch vụ vận chuyển uy tín** và có bảo đảm. Đồng thời, bạn phải **xác nhận với người nhận** về thời gian và nội dung của tài liệu.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Tại sao nhân viên vận chuyển thông tin mật không được uống rượu bia?",
+      "answer": "Đây là một quy tắc nghiêm ngặt nhằm đảm bảo **tỉnh táo và tập trung** trong quá trình di chuyển, từ đó **tránh thất lạc hoặc rò rỉ thông tin mật**.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Tiêu đề của biểu đồ này là gì?",
+      "answer": "Tiêu đề của biểu đồ này là '**Phòng chống virus – Vận chuyển thông tin - Xử lý sự cố ATTT**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Biểu đồ này thảo luận về những chủ đề chính nào?",
+      "answer": "Biểu đồ này thảo luận hai chủ đề chính: '**Phòng chống virus**' và '**Vận chuyển thông tin**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Ba ô nằm dưới phần 'Phòng chống virus' có ý nghĩa gì?",
+      "answer": "Ba ô dưới phần 'Phòng chống virus' mô tả các bước quan trọng để phòng chống virus: '**Cập nhật hệ thống**', '**Hành động khi phát hiện Virus**' và '**Lưu ý**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Hai ô nằm dưới phần 'Vận chuyển thông tin' có ý nghĩa gì?",
+      "answer": "Hai ô dưới phần 'Vận chuyển thông tin' trình bày các quy tắc để vận chuyển thông tin an toàn: '**Nguyên tắc vận chuyển thông tin**' và '**Nhân viên vận chuyển thông tin yêu cầu**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Mũi tên đầu tiên bên trái đại diện cho điều gì?",
+      "answer": "Mũi tên đầu tiên bên trái đại diện cho chủ đề chính là '**Phòng chống virus**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Mũi tên thứ hai bên trái đại diện cho điều gì?",
+      "answer": "Mũi tên thứ hai bên trái đại diện cho chủ đề chính là '**Vận chuyển thông tin**'.",
+      "table_path": "table/slide40_table.png"
+    },
+    {
+      "question": "Chữ 'Lưu ý' trong ô 'Lưu ý' có nghĩa là gì?",
+      "answer": "Chữ 'Lưu ý' trong ô đó nhấn mạnh những điểm quan trọng cần nhớ khi xử lý sự cố virus, như **không tự ý khắc phục** và **hạn chế tối đa sự lây lan** của virus.",
+      "table_path": "table/slide40_table.png"
+    }
+  ],
+  "Table in page 41": [
+    {
+      "question": "Những quy định chung về sử dụng máy in, máy hủy giấy và tài liệu cứng là gì?",
+      "answer": "Các quy định này bao gồm việc **Hủy tài liệu an toàn** và **Bảo vệ tài liệu bản cứng**.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Văn bản này nói về những quy định gì?",
+      "answer": "Văn bản này nói về các quy định liên quan đến việc **sử dụng máy in, máy hủy giấy, tài liệu bản cứng** và các quy định về **ra vào công ty**.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Tôi phải làm gì để hủy tài liệu an toàn?",
+      "answer": "Bạn phải dùng **máy hủy giấy** để hủy các tài liệu có thông tin nhạy cảm như Hợp đồng, Bảng lương, Hồ sơ dự án, Báo cáo tài chính, Hồ sơ khách hàng, Dự thầu, Doanh thu...",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Làm thế nào để bảo vệ tài liệu bản cứng?",
+      "answer": "Bạn **không được để tài liệu Mật** và Tuyệt mật ở các khu vực công cộng như máy in, máy photocopy, phòng họp, bàn làm việc. Tài liệu bản cứng phải được **lưu trữ tại tủ có khóa** và đúng vị trí quy định.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Quy định ra vào công ty đối với nhân viên ITS là gì?",
+      "answer": "Nhân viên công ty được phép **ra vào để làm việc**. Đối với các khu vực **màu vàng và đỏ**, chỉ tiếp cận trong phạm vi công việc được phân công.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Khách đến công ty phải tuân theo những quy định nào?",
+      "answer": "Khách đến công ty cần được **quản lý, đăng ký, lưu trữ thông tin** với Admin và cập nhật trên biểu mẫu đã cho. Ngoài ra, nhân viên cũng không được tự ý **mở cửa** cho người lạ.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Tại sao tất cả cửa ra vào phải luôn được khóa?",
+      "answer": "Tất cả cửa ra vào luôn được khóa để **bảo vệ tài sản và kiểm soát ra vào** của công ty.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Trách nhiệm của nhân viên khi xảy ra mất tài sản công ty là gì?",
+      "answer": "Nhân viên có trách nhiệm **giải quyết hậu quả** nếu không tuân thủ các quy định gây sự cố mất mát tài sản của công ty.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Ô đầu tiên ở phần dưới cùng nói về gì?",
+      "answer": "Ô đó nói về **Quy định ra vào công ty đối với nhân viên ITS**.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Ô ở giữa phần dưới cùng nói về gì?",
+      "answer": "Ô đó nói về **Quy định đối với khách**.",
+      "table_path": "table/slide41_table.png"
+    },
+    {
+      "question": "Ô cuối cùng ở phần dưới cùng nói về gì?",
+      "answer": "Ô đó nói về việc **Bảo vệ tài sản và kiểm soát ra vào**.",
+      "table_path": "table/slide41_table.png"
+    }
+  ],
+  "Table in page 42": [
+    {
+      "question": "Những khu vực nào được phân loại theo mức độ an toàn thông tin?",
+      "answer": "Các khu vực được phân loại theo ba mức độ: **Khu vực màu Đỏ - mức độ Cao**, **Khu vực màu Vàng - mức độ Trung bình**, và **Khu vực không gắn màu - mức độ Thấp**.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Khu vực màu Đỏ bao gồm những nơi nào và có quy định gì?",
+      "answer": "Khu vực màu Đỏ (mức độ Cao) gồm: **phòng họp khu vực Ban Giám đốc (BGD), khu vực làm việc của BGD, phòng server, khu dự án quan trọng**. Tại đây, **cấm quay phim, chụp ảnh** và chỉ được tiếp cận khi có sự đồng ý của lãnh đạo/trưởng bộ phận, có nhân sự giám sát.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Khu vực màu Vàng bao gồm những nơi nào và có quy định gì?",
+      "answer": "Khu vực màu Vàng (mức độ Trung bình) là **khu vực làm việc của các phòng ban tại tầng 15 và 17**. Tại đây, cũng **cấm quay phim, chụp ảnh** và chỉ được tiếp cận khi có người làm việc trong phòng.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Quy định đối với các khu vực không gắn màu là gì?",
+      "answer": "Khu vực không gắn màu (mức độ Thấp) là **khu vực pantry, lối đi chung**. Tại đây, **được phép tiếp khách và các đối tác** và **được phép sử dụng các thiết bị cầm tay**.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Tại sao lại có quy định phân vùng an toàn thông tin?",
+      "answer": "Việc phân vùng giúp **kiểm soát và bảo vệ thông tin** theo mức độ nhạy cảm của nó. Các khu vực chứa thông tin quan trọng sẽ được bảo vệ nghiêm ngặt hơn để tránh rò rỉ hoặc truy cập trái phép.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Sự khác biệt chính giữa khu vực màu Đỏ và khu vực màu Vàng là gì?",
+      "answer": "Sự khác biệt chính là ở **mức độ kiểm soát tiếp cận**. Khu vực Đỏ yêu cầu sự đồng ý của lãnh đạo và có nhân sự giám sát, trong khi khu vực Vàng chỉ cần có người làm việc trong phòng.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Ô đầu tiên bên trái nói về gì?",
+      "answer": "Ô đó nói về **Phân vùng ATTT** (Phân vùng An toàn thông tin), mô tả các loại khu vực dựa trên mức độ bảo mật.",
+      "table_path": "table/slide42_table.png"
+    },
+    {
+      "question": "Ô đầu tiên bên phải nói về gì?",
+      "answer": "Ô đó nói về **Quy định ATTT theo vùng**, liệt kê các quy tắc cụ thể áp dụng cho từng khu vực đã được phân loại.",
+      "table_path": "table/slide42_table.png"
+    }
+  ],
+  "Table in page 46": [
+    {
+      "question": "Những ai có chức vụ Trưởng ban ISO?",
+      "answer": "Theo bảng, Ms. Lê Thị Diệu Thùy là Trưởng ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Vị trí của Ms. Lê Thị Diệu Thùy là gì?",
+      "answer": "Ms. Lê Thị Diệu Thùy giữ chức vụ Trưởng ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'Thuyltd' là ai?",
+      "answer": "Người có Telegram 'Thuyltd' là Ms. Lê Thị Diệu Thùy. Email của cô ấy là thuyltd@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Lê Thị Diệu Thùy là gì?",
+      "answer": "Thông tin liên lạc của Ms. Lê Thị Diệu Thùy là: Email: thuyltd@iceteasoftware.com và Telegram: Thuyltd.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Phó ban ISO?",
+      "answer": "Mr. Nguyễn Viết Thành là Phó ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Mr. Nguyễn Viết Thành là gì?",
+      "answer": "Mr. Nguyễn Viết Thành là Phó ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'kapparino' là ai?",
+      "answer": "Người có Telegram 'kapparino' là Mr. Nguyễn Viết Thành. Email của anh ấy là josh@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Nguyễn Viết Thành là gì?",
+      "answer": "Thông tin liên lạc của Mr. Nguyễn Viết Thành là: Email: josh@iceteasoftware.com và Telegram: kapparino.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Thư ký ban ISO?",
+      "answer": "Ms. Hoàng Thị Thu Hiền là Thư ký ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ms. Hoàng Thị Thu Hiền có chức vụ gì?",
+      "answer": "Ms. Hoàng Thị Thu Hiền là Thư ký ban ISO.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'hienhoang25' là ai?",
+      "answer": "Người có Telegram 'hienhoang25' là Ms. Hoàng Thị Thu Hiền. Email của cô ấy là hienhtt@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Hoàng Thị Thu Hiền là gì?",
+      "answer": "Thông tin liên lạc của Ms. Hoàng Thị Thu Hiền là: Email: hienhtt@iceteasoftware.com và Telegram: hienhoang25.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai phụ trách IT Help desk?",
+      "answer": "Mr. Nguyễn Bá Long phụ trách IT Help desk.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Mr. Nguyễn Bá Long là gì?",
+      "answer": "Mr. Nguyễn Bá Long giữ chức vụ IT Help desk.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'Long160220' là ai?",
+      "answer": "Người có Telegram 'Long160220' là Mr. Nguyễn Bá Long. Email của anh ấy là longnb@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Nguyễn Bá Long là gì?",
+      "answer": "Thông tin liên lạc của Mr. Nguyễn Bá Long là: Email: longnb@iceteasoftware.com và Telegram: Long160220.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận sản xuất GLYPH?",
+      "answer": "Mr. Trần Hoàng Hải là Giám đốc bộ phận sản xuất GLYPH.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Mr. Trần Hoàng Hải giữ chức vụ gì?",
+      "answer": "Mr. Trần Hoàng Hải là Giám đốc bộ phận sản xuất GLYPH.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'EricTran90' là ai?",
+      "answer": "Người có Telegram 'EricTran90' là Mr. Trần Hoàng Hải. Email của anh ấy là haith@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Trần Hoàng Hải là gì?",
+      "answer": "Thông tin liên lạc của Mr. Trần Hoàng Hải là: Email: haith@iceteasoftware.com và Telegram: EricTran90.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận sản xuất BLC?",
+      "answer": "Mr. Phạm Hùng là Giám đốc bộ phận sản xuất BLC.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Mr. Phạm Hùng là gì?",
+      "answer": "Mr. Phạm Hùng là Giám đốc bộ phận sản xuất BLC.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'hulk_1901' là ai?",
+      "answer": "Người có Telegram 'hulk_1901' là Mr. Phạm Hùng. Email của anh ấy là hungp@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Phạm Hùng là gì?",
+      "answer": "Thông tin liên lạc của Mr. Phạm Hùng là: Email: hungp@iceteasoftware.com và Telegram: hulk_1901.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Trưởng phòng HCNS?",
+      "answer": "Ms. Hứa Thị Hương là Trưởng phòng HCNS.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Ms. Hứa Thị Hương là gì?",
+      "answer": "Ms. Hứa Thị Hương là Trưởng phòng HCNS.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'Huonght17' là ai?",
+      "answer": "Người có Telegram 'Huonght17' là Ms. Hứa Thị Hương. Email của cô ấy là huonght1@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Hứa Thị Hương là gì?",
+      "answer": "Thông tin liên lạc của Ms. Hứa Thị Hương là: Email: huonght1@iceteasoftware.com và Telegram: Huonght17.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Trưởng phòng DBNL?",
+      "answer": "Ms. Trần Thị An là Trưởng phòng DBNL.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ms. Trần Thị An có chức vụ gì?",
+      "answer": "Ms. Trần Thị An là Trưởng phòng DBNL.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'tranan198' là ai?",
+      "answer": "Người có Telegram 'tranan198' là Ms. Trần Thị An. Email của cô ấy là antt@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Trần Thị An là gì?",
+      "answer": "Thông tin liên lạc của Ms. Trần Thị An là: Email: antt@iceteasoftware.com và Telegram: tranan198.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận Sale Global?",
+      "answer": "Mr. Lê Xuân Tùng là Giám đốc bộ phận Sale Global.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Mr. Lê Xuân Tùng là gì?",
+      "answer": "Mr. Lê Xuân Tùng là Giám đốc bộ phận Sale Global.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'tunglx12' là ai?",
+      "answer": "Người có Telegram 'tunglx12' là Mr. Lê Xuân Tùng. Email của anh ấy là tunglx@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Lê Xuân Tùng là gì?",
+      "answer": "Thông tin liên lạc của Mr. Lê Xuân Tùng là: Email: tunglx@iceteasoftware.com và Telegram: tunglx12.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận Sale Korea?",
+      "answer": "Ms. Nguyễn Thanh Hương là Giám đốc bộ phận Sale Korea.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Ms. Nguyễn Thanh Hương là gì?",
+      "answer": "Ms. Nguyễn Thanh Hương là Giám đốc bộ phận Sale Korea.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'Grace_nguyen2210' là ai?",
+      "answer": "Người có Telegram 'Grace_nguyen2210' là Ms. Nguyễn Thanh Hương. Email của cô ấy là grace@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Nguyễn Thanh Hương là gì?",
+      "answer": "Thông tin liên lạc của Ms. Nguyễn Thanh Hương là: Email: grace@iceteasoftware.com và Telegram: Grace_nguyen2210.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận Sale Web3?",
+      "answer": "Ms. Nguyễn Thị Ngọc Giàng là Giám đốc bộ phận Sale Web3.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Ms. Nguyễn Thị Ngọc Giàng là gì?",
+      "answer": "Ms. Nguyễn Thị Ngọc Giàng là Giám đốc bộ phận Sale Web3.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'olivsund' là ai?",
+      "answer": "Người có Telegram 'olivsund' là Ms. Nguyễn Thị Ngọc Giàng. Email của cô ấy là giangntn@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Nguyễn Thị Ngọc Giàng là gì?",
+      "answer": "Thông tin liên lạc của Ms. Nguyễn Thị Ngọc Giàng là: Email: giangntn@iceteasoftware.com và Telegram: olivsund.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Ai là Giám đốc bộ phận ITK?",
+      "answer": "Mr. Vương Trọng Nhạn là Giám đốc bộ phận ITK.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Chức vụ của Mr. Vương Trọng Nhạn là gì?",
+      "answer": "Mr. Vương Trọng Nhạn là Giám đốc bộ phận ITK.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Người có Telegram 'nhatvanvuong' là ai?",
+      "answer": "Người có Telegram 'nhatvanvuong' là Mr. Vương Trọng Nhạn. Email của anh ấy là nhanvt@iceteasoftware.com.",
+      "table_path": "table/slide46_table.png"
+    },
+    {
+      "question": "Thông tin liên lạc của Vương Trọng Nhạn là gì?",
+      "answer": "Thông tin liên lạc của Mr. Vương Trọng Nhạn là: Email: nhanvt@iceteasoftware.com và Telegram: nhatvanvuong.",
+      "table_path": "table/slide46_table.png"
+    }
+  ]
+}
