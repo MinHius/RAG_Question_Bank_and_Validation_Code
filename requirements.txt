@@ -1,0 +1,4 @@
+pymupdf
+paddleocr
+pymupdf
+pdfplumber
