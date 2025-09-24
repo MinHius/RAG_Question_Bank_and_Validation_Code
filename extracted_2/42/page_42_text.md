@@ -1,27 +1,48 @@
 # Page 42
 
 42
+
 QUY ĐỊNH VÙNG ATTT TẠI ITS (KHU VỰC LÀM VIỆC)
+
 PHÂN VÙNG ATTT
+
 • Khu vực màu Đỏ - mức độ Cao:
-Phòng họp khu vực BGĐ, Khu vực làm 
+
+Phòng họp khu vực BGĐ, Khu vực làm
+
 việc của BGĐ, phòng server, khu dự án 
 quan trọng.
-• Khu vực màu Vàng - mức độTrung 
+
+• Khu vực màu Vàng - mức độTrung
+
 bình: Khu vực làm việc của các phòng
+
 ban tại tầng 15 và tầng 17.
-• Khu vực không gắn màu- mức độ 
+
+• Khu vực không gắn màu- mức độ
+
 Thấp: Khu vực pantry, lối đi chung.
+
 QUY ĐỊNH ATTT THEO VÙNG
-• Khu vực màu đỏ: 
-• Cấm quay phim, chụp ảnh 
-• Chỉ được tiếp cận khi có sự đồng ý của ban lãnh đạo, trưởng bộ phận 
+
+• Khu vực màu đỏ:
+
+• Cấm quay phim, chụp ảnh
+
+• Chỉ được tiếp cận khi có sự đồng ý của ban lãnh đạo, trưởng bộ phận
+
 và có nhân sự giám sát quá trình tiếp cận
+
 • Khu vực màu vàng:
-• Cấm quay phim, chụp ảnh 
+
+• Cấm quay phim, chụp ảnh
+
 • Chỉ được tiếp cận khi có người làm việc trong phòng
-• Khu vực thường: 
+
+• Khu vực thường:
+
 • Được phép tiếp khách và các đối tác
+
 • Được phép sử dụng các thiết bị cầm tay
 
 [Schema](page_42_img_0.png)

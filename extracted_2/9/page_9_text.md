@@ -1,11 +1,16 @@
 # Page 9
 
 9
+
 CÁC CASE STUDIES NGUY CƠ VỀ VI PHẠM ATTT
-CÁC CASE 
+
+CÁC CASE
+
 STUDIES
+
 TẠI SAO CẦN TUÂN 
-THỦTIÊU CHUẨN VỀ BẢO 
+THỦTIÊU CHUẨN VỀ BẢO
+
 MẬT ATTT TẠI ITS ???
 
 [Schema](page_9_img_0.png)

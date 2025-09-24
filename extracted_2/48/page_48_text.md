@@ -1,6 +1,7 @@
 # Page 48
 
 Question & Answer
+
 48
 
 [Schema](page_48_img_0.png)

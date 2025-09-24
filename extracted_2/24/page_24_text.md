@@ -1,8 +1,11 @@
 # Page 24
 
 24
+
 QUY ĐỊNH VỀ TÀI SẢN THÔNG TIN
+
 ❖Tài sản được phân  thành 5 loại như sau:
+
 1. Tài sản thông tin:
 •
 Hợp đồng, thỏa thuận pháp lý.
@@ -22,6 +25,7 @@ Thông tin nhân sự: Hồ sơ nhân viên, thông tin lương thưởng, đán
 •
 Dữ liệu hoạt động: Kế hoạch kinh doanh, chiến lược marketing, quy trình vận hành, dữ liệu nghiên cứu và phát 
 triển (R&D).
+
 PHÂN LOẠI TÀI SẢN THÔNG TIN
 
 [Schema](page_24_img_0.png)
