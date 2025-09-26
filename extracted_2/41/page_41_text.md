@@ -1,6 +1,6 @@
 # Page 41
 
-7. QUY ĐỊNH VỀ SỬ DỤNG MÁY IN, MÁY HỦY GIẤY, TÀI LIỆU BẢN CỨNG – 
+7. QUY ĐỊNH VỀ SỬ DỤNG MÁY IN, MÁY HỦY GIẤY, TÀI LIỆU BẢN CỨNG –
 QUY ĐỊNH RA VÀO CÔNG TY
 
 [Schema](page_41_table_1.png)

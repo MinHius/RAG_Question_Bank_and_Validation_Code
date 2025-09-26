@@ -10,6 +10,7 @@ input_file = "C:/Users/Dell/Desktop/TÀI LIỆU ĐÀO TẠO AN TOÀN THÔNG TIN 
 output_path = Path("extracted_2")
 table_coords = defaultdict(list)
 
+
 def table():
     os.makedirs(output_path, exist_ok=True)
 
@@ -44,36 +45,54 @@ def table():
                 print(f"Saved Page {page_number}, Table {table_index} → {file_path}")
                 
                 
-def text_and_image():          
-    # PyMuPdf
+def text_and_image():
     doc = fitz.open(input_file)
-    for page_count, page in enumerate(doc, start = 1):
-        # Text
-        blocks = page.get_text("blocks")
+    for page_count, page in enumerate(doc, start=1):
+        # Extract dict (structured)
+        text_dict = page.get_text("dict")
         content = f"# Page {page_count}\n\n"
 
         table_bboxes = table_coords.get(page_count, [])
 
-        for block in blocks:
-            x0, y0, x1, y1, text, *_ = block
-            rect = fitz.Rect(x0, y0, x1, y1)
-
-            # check overlap with any table bbox
-            if any(rect.intersects(fitz.Rect(*tb["coords"])) for tb in table_bboxes):
+        for block in text_dict["blocks"]:
+            if block["type"] != 0:  # only text blocks
                 continue
             
-            if text.strip():
-                content += text.strip() + "\n\n"
-    
+            rect = fitz.Rect(*block["bbox"])
+
+            # skip if block overlaps any table
+            if any(rect.intersects(fitz.Rect(*tb["coords"])) for tb in table_bboxes):
+                continue
+
+            # collect text line by line
+            merged = []
+            for line in block["lines"]:
+                line_text = "".join(span["text"] for span in line["spans"]).strip()
+
+                if not line_text:  # skip empty lines
+                    continue
+
+                # if all chars are non-alpha, mark it for merging
+                if all(not ch.isalpha() for ch in line_text):
+                    merged.append(line_text)
+                else:
+                    if merged:
+                        # join the last merged symbol(s) with this text
+                        line_text = "".join(merged) + " " + line_text
+                        merged.clear()
+                    content += line_text + "\n"
+            
+        # Save to Markdown
         file_path = output_path / f"{page_count}" / f"page_{page_count}_text.md"
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Saving text as .md files + add table paths
         with open(file_path, "w", encoding="utf-8") as md_file:
             md_file.write(content)
+
+        # Append schema refs
         with open(file_path, "a", encoding="utf-8") as md_file:
             for tb in table_bboxes:
-                md_file.write(f"[Schema]({tb["path"].name})\n")
+                md_file.write(f"[Schema]({tb['path'].name})\n")
             
         for img_index, img in enumerate(page.get_images(full=True)):
             xref = img[0]

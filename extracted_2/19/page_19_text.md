@@ -1,13 +1,8 @@
 # Page 19
 
-19
-
-3.
-GIỚI THIỆU CHUNG VỀ
+3. GIỚI THIỆU CHUNG VỀ
 THÔNG TIN VÀ ATTT
-
 Thông tin là gì?
-
 ATTT là gì?
 
 [Schema](page_19_img_0.png)
