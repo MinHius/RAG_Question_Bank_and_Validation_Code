@@ -1,7 +1,6 @@
 # Page 28
 
-
-QUY ĐỊNH ATTT TẠI ITS
+ QUY ĐỊNH ATTT TẠI ITS
 • QUY ĐỊNH SỬ DỤNG THÔNG TIN MẬT ⓵
 • QUY ĐỊNH QUẢN LÝ VÀ SỬ DỤNG TÀI KHOẢN, MẬT KHẨU ⓶
 • QUY ĐỊNH VỀ SỬ DỤNG THIẾT BỊ CNTT ⓷

@@ -4,6 +4,7 @@
 4. QUY ĐỊNH VỀ SỬ DỤNG VÀ TRUY CẬP MẠNG NỘI BỘ
 Quản lý truy cập người dùng Đăng ký sử dụng
 Cấp phát, thay đổi và hủy bỏ đăng ký truy cập trên tất cả các hệ thống và dịch vụ thông tin.
+
 Định danh và xác thực
 Mỗi người dùng chỉ được có một định danh duy nhất và phải có biện pháp xác thực.
 

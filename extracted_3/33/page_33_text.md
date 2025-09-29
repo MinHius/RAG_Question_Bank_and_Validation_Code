@@ -3,8 +3,7 @@
 
 3. QUY ĐỊNH VỀ SỬ DỤNG THIẾT BỊ CNTT
 Hạn chế đối với thiết bị cá nhân
-CBNV không tự ý mang các thiết bị
-CNTT (laptop, Ipad, USB...) ra/vào công ty
+CBNV không tự ý mang các thiết bị CNTT (laptop, Ipad, USB...) ra/vào công ty
 Đăng ký sử dụng với IT, xin phê duyệt của ban ISO và ký cam kết bảo mật thông tin
 [Schema](page_33_table_1.png)
 

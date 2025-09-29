@@ -8,22 +8,18 @@ cầu nghiệp vụ và yêu cầu
 ATTT, đảm bảo thông tin chỉ
 được cấp đúng và đủ cho người sử dụng.
 
-Thiết lập quyền truy cập
-Quyền truy cập phải được
+Thiết lập quyền truy cập Quyền truy cập phải được
 rà soát định kỳ 6 tháng/lần
 để đảm bảo tính phù hợp và an toàn.
 
-Rà soát định kỳ
-Quyền truy cập phải được
+Rà soát định kỳ Quyền truy cập phải được
 loại bỏ khi không còn nhu
 cầu sử dụng để tránh rủi ro bảo mật.
 
-Loại bỏ quyền truy cập Kiểm soát quyền truy cập Dựa trên nhu cầu công việc, các trường hợp
-ngoại lệ cần được phê duyệt thích hợp.
+Loại bỏ quyền truy cập Kiểm soát quyền truy cập Dựa trên nhu cầu công việc, các trường hợp ngoại lệ cần được phê duyệt thích hợp.
 Quản lý truy cập hệ ứng dụng và cơ sở dữ liệu Phân Quyền Phù Hợp
 Việc phân quyền truy cập phải
-phù hợp với chức năng, nhiệm
-vụ của người sử dụng.
+phù hợp với chức năng, nhiệm vụ của người sử dụng.
 Điều kiện kết nối mạng nội bộ
 - Cập nhật bản vá lỗi, phần mềm tự động
 - 

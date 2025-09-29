@@ -10,12 +10,11 @@ bình: Khu vực làm việc của các phòng
 ban tại tầng 15 và tầng 17.
 • Khu vực không gắn màu- mức độ
 Thấp: Khu vực pantry, lối đi chung.
-QUY ĐỊNH ATTT THEO VÙNG
-• Khu vực màu đỏ:
+
+QUY ĐỊNH ATTT THEO VÙNG • Khu vực màu đỏ:
 • Cấm quay phim, chụp ảnh
 • Chỉ được tiếp cận khi có sự đồng ý của ban lãnh đạo, trưởng bộ phận
-và có nhân sự giám sát quá trình tiếp cận
-• Khu vực màu vàng:
+và có nhân sự giám sát quá trình tiếp cận • Khu vực màu vàng:
 • Cấm quay phim, chụp ảnh
 • Chỉ được tiếp cận khi có người làm việc trong phòng • Khu vực thường:
 • Được phép tiếp khách và các đối tác

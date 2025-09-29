@@ -3,6 +3,7 @@
 
 QUY ĐỊNH VỀ TÀI SẢN THÔNG TIN
 ❖Tài sản được phân  thành 5 loại như sau:
+
 1. Tài sản thông tin:
 • Hợp đồng, thỏa thuận pháp lý.
 • Hồ sơ giấy tờ của công ty, các biên bản họp quan trọng.

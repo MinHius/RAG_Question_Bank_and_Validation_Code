@@ -3,7 +3,7 @@
 
 2. 
 • Phần mềm: Hệ điều hành, phần mềm ứng dụng (CRM, ERP), hệ quản trị cơ sở dữ liệu, các ứng dụng tự phát triển
-3. Tài sản vật lý :
+3. 
 • Các thiết bị kỹ thuật, thiết bị CNTT, tủ đựng tài liệu.
 • Phần cứng: Máy chủ (servers), máy tính cá nhân (PCs), thiết bị mạng (routers, switches), thiết bị lưu trữ (ổ cứng, USB).
 4. Tài sản dịch vụ - công nghệ: Các dịch vụ cung cấp ứng dụng, tài khoản, cloud, cung cấp thiết bị CNTT, dịch vụ tòa nhà, đường truyền internet.

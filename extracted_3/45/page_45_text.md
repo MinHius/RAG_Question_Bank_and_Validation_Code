@@ -1,8 +1,6 @@
 # Page 45
 
-
-XỬ LÝ SỰ CỐ ATTT
-Sự cố dẫn đến đâu?
+ XỬ LÝ SỰ CỐ ATTT Sự cố dẫn đến đâu?
 Sự cố: Rò rì thông tin của Công ty, của khách hàng ra bên ngoài.
 Công ty tốn thời gian công sức,tiền bạc để xử lý sự cố. Người vi phạm có các mức phạt tương ứng.
 Mất lòng tin đối với khách hàng có thể dẫn đến mất hợp đồng, mất quan hệ với khách hàng.
