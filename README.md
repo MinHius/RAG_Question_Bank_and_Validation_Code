@@ -5,15 +5,19 @@
 - extracted_2: PyMuPdf + Pdfplumber
 - extracted_3: PyMuPdf + Pdfplumber (light processing)
 - extracted_final: Results of PyMuPdf + Pdfplumber + LLM (Best)
+- extracted_test: New code test results
 
 **Extract code files:**
 - layout_detection_1.py: Paddle StructureV3 + PyMuPdf
 - layout_detection_2.py: PyMuPdf + Pdfplumber
 - layout_detection_3.py: PyMuPdf + Pdfplumber
 - layout_detection_final.py: PyMuPdf + Pdfplumber + LLM
+- test.py: File to test extract code
+- test_api.py: File to test API code
+
 
 **Runtime (test pdf):**
-- Max: 37.746538400650024s
-- Min: 1.6937243938446045s
-- Total: 662.929938446045s
-- Avg: 13.811026617884636s
+Max: 127.13654088973999
+Min: 5.068645477294922
+Total: 938.0460472106934
+Avg: 19.54262598355611
