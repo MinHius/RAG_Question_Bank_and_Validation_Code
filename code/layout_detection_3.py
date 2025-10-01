@@ -1,19 +1,30 @@
 """PyMuPdf for images and texts + Pdfplumber for tables"""
+import math
 import fitz 
 import pdfplumber
 import os
 from pathlib import Path
 from collections import defaultdict
 import re
-
+import time
+from validation import validate_parser, extract_table
 
 input_file = "C:/Users/Dell/Desktop/TÀI LIỆU ĐÀO TẠO AN TOÀN THÔNG TIN 2025.pdf"
-output_path = Path("extracted_3")
+output_path = Path("extracted_final")
 table_coords = defaultdict(list)
 
 def is_indexing(line: str) -> bool:
-    line = line.strip()
-    return bool(re.match(r"^(\d+[\.\)]|[A-Z][\.\)])\s*$|^[•\-]\s*$", line))
+    return bool(re.match(
+    r"""^(
+        [\u2022\u2023\u25E6\u2043\u2219\-\+\*•●○■□◆▶►]   # common bullet symbols
+        |
+        \d+[\.\)]                                       # 1. or 1)
+        |
+        [A-Z][\.\)\-]                                   # A. or A)
+    )(\s+.*)?$""", 
+    line.strip(), re.VERBOSE))
+
+
 
 def make_merged(merged):
     if merged:
@@ -72,7 +83,7 @@ def table():
             tables = page.find_tables()
             for table_index, table in enumerate(tables, start=1):
                 file_name = f"page_{page_number}_table_{table_index}.png"
-                file_path = output_path / f"{page_number}" / file_name
+                file_path = output_path / f"{page_number}" / "table_img" / file_name
                 file_path.parent.mkdir(parents=True, exist_ok=True)
                 
                 # Clip bbox to page bounds
@@ -97,21 +108,19 @@ def table():
 
                 print(f"Saved Page {page_number}, Table {table_index} → {file_path}")
                 
-                
+
 def text_and_image():
+    runtime = []
     doc = fitz.open(input_file)
     for page_count, page in enumerate(doc, start=1):
-        # Extract dict (structured)
+        table_extracted = False
+        start = time.time()
         text_dict = page.get_text("dict")
-        
-        # blocks = sorted(
-        #     text_dict["blocks"],
-        #     key=lambda b: (b["bbox"][1], b["bbox"][0])  # (y0, x0)
-        # )
         
         content = f"# Page {page_count}\n\n"
         table_bboxes = table_coords.get(page_count, [])
 
+        previous_type = ""
         for block in text_dict["blocks"]:
             if block["type"] != 0:  # only text blocks
                 continue
@@ -120,12 +129,15 @@ def text_and_image():
 
             # skip if block overlaps any table
             if any(rect.intersects(fitz.Rect(*tb["coords"])) for tb in table_bboxes):
+                if table_extracted == False:
+                    folder_path = output_path / f"{page_count}" / "table_img"
+                    content += extract_table(folder_path) + "\n\n"
+                    table_extracted = True
                 continue
 
             # collect text line by line
             merged = []
 
-            previous_len = 1
             for line in block["lines"]:
                 line_text = "".join(span["text"] for span in line["spans"]).strip()
                 if not line_text:  # skip empty lines
@@ -134,47 +146,61 @@ def text_and_image():
                     continue  # skip footer page number
 
                 
-                # print(line_text + " " + str(len(line_text.split())))
-                if len(line_text.split()) in range(1,6):
+                if len(line_text.split()) in range(1,7):
                     if not is_indexing(line_text):
-                        if content[-1] != " ":
-                            if content[-1] in [".", ";", ":"]:
-                                content += "\n\n"
-                                content += line_text
-                            else:
-                                content += " " + line_text
-                        # if "." in line_text:
-                        #     content += "\n"
-                        previous_len = len(line_text.strip())
+                        """Short lines, not bullets"""
+                        
+                        # Current content is at end of sentences
+                        if content[-1] != " " and content[-1] in [".", ";", ":"]:
+                            content += "\n"
+                            
+                        # Append short line
+                        content += " " + line_text + " "
+                        
+                        # Short lines having periods
+                        if line_text[-1] == ".":
+                            content += "\n"
+                        previous_type = "short text"
                     else:
-                        merged.append(line_text)
-                        bulleted_line = merged.pop(-1)
-                        content += "\n" + bulleted_line + " "
-                        previous_len = 6
+                        # Short lines - bullets
+                        content += "\n" + line_text + " "
+                        previous_type = "bullet"
                 else:
-                    if previous_len < len(line_text.strip()) and previous_len in range(1,6):
+                    if previous_type in ["short text"]:
                         content += "\n"
-                    elif content[-1].isalpha():
-                        content += " "
-                    content += line_text
-                    previous_len = len(line_text.strip())
+                        
+                    # Long line with period
+                    if "." == line_text[-1] and len(line_text.split()) > 1:
+                        content += line_text + "\n"
+                    # Long line - continuous
+                    elif content[-1].isalpha() or content[-1] == " ":
+                        content += " " + line_text
+                    else: 
+                        content += " " + line_text + " "
+                    previous_type = "long text"
                     
             
         # Save to Markdown
         file_path = output_path / f"{page_count}" / f"page_{page_count}_text.md"
         file_path.parent.mkdir(parents=True, exist_ok=True)
 
+        # Sort numeric list
         content = fix_bullet_lists(content)
-
+        
+        # LLM re-formatting
+        content = validate_parser(content, page_count)
+        
+        # Write text content
         with open(file_path, "w", encoding="utf-8") as md_file:
             md_file.write(content)
 
-        # Append schema refs
+        # Append table path
         with open(file_path, "a", encoding="utf-8") as md_file:
             md_file.write("\n")
             for tb in table_bboxes:
                 md_file.write(f"[Schema]({tb['path'].name})\n")
             
+        # Extract images
         img_paths = []
         for img_index, img in enumerate(page.get_images(full=True)):
             xref = img[0]
@@ -183,20 +209,29 @@ def text_and_image():
             img_path.parent.mkdir(parents=True, exist_ok=True)
             if pix.n < 5:  # RGB or grayscale
                 pix.save(img_path)
-            else:  # CMYK
+            else:
                 pix = fitz.Pixmap(fitz.csRGB, pix)
                 pix.save(img_path)
             img_paths.append(img_path)
                 
+        # Append image path
         with open(file_path, "a", encoding="utf-8") as md_file:
             md_file.write("\n")
             for path in img_paths:
                 md_file.write(f"[Schema]({path.name})\n")
 
+        end = time.time()
+        runtime.append(end - start)
+        
+    print(f"Max: {max(runtime)}")
+    print(f"Min: {min(runtime)}")
+    print(f"Total: {sum(runtime)}")
+    print(f"Avg: {sum(runtime) / len(runtime)}")
 
 
 if __name__ == "__main__":
     table()
+    os.makedirs("test_val", exist_ok=True)
     text_and_image()
 
 

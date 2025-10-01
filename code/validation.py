@@ -1,6 +1,7 @@
+import os
 import json
 from google import generativeai as genai
-from prompt import prompt_val, prompt_pdf
+from prompt import prompt_val, prompt_pdf, prompt_table
 from config import GEMINI_API_KEY, GEMINI_MODEL
 
 
@@ -76,3 +77,24 @@ def validate_parser(text, page_num):
     
     return response_text
         
+        
+def extract_table(PNG_path):
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(GEMINI_MODEL)
+    
+    # collect all PNG files in the folder
+    images = []
+    for file in os.listdir(PNG_path):
+        if file.lower().endswith(".png"):
+            with open(os.path.join(PNG_path, file), "rb") as f:
+                images.append({
+                    "mime_type": "image/png",
+                    "data": f.read()
+                })
+
+    if not images:
+        raise ValueError("No PNG images found in the folder!")
+
+        # send prompt + all images at once
+    response = model.generate_content([prompt_table, *images])
+    return response.text
