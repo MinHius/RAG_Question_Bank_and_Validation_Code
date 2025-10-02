@@ -2,10 +2,15 @@ import os
 import json
 from google import generativeai as genai
 from prompt import prompt_val, prompt_pdf, prompt_extract
-from config import GEMINI_API_KEY, GEMINI_MODEL
+from dotenv import load_dotenv
+import os
 
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel(GEMINI_MODEL)
+
+load_dotenv()  # reads .env into environment variables
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL =  os.getenv("GEMINI_MODEL")
+# genai.configure(api_key=GEMINI_API_KEY)
+# model = genai.GenerativeModel(GEMINI_MODEL)
     
     
 def validate_RAG():
