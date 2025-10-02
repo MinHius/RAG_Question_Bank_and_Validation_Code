@@ -1,10 +1,13 @@
 import os
 import json
 from google import generativeai as genai
-from prompt import prompt_val, prompt_pdf, prompt_page
+from prompt import prompt_val, prompt_pdf, prompt_extract
 from config import GEMINI_API_KEY, GEMINI_MODEL
 
-
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel(GEMINI_MODEL)
+    
+    
 def validate_RAG():
     # Load ground truth
     with open("test_json/test_ground_truth.JSON", "r", encoding="utf-8") as f:
@@ -17,7 +20,7 @@ def validate_RAG():
     # Create a dictionary for quick lookup
     gen_dict = {item["question"]: item["answer"] for item in generated}
 
-    # Your evaluation prompt (the one I gave earlier)
+    # Evaluation prompt
     evaluation_prompt = prompt_val
 
     # Initialize Gemini
@@ -57,35 +60,29 @@ def validate_RAG():
         json.dump(results, f, ensure_ascii=False, indent=2)
 
 
-def validate_parser(text):
-    evaluation_prompt = prompt_pdf
+def validate_parser(text) -> str:
+    """ Reformat text content """
 
     # Initialize Gemini
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel(GEMINI_MODEL)
 
-    # Run evaluation for each pair
-
-    input_text = f"Prompt: {evaluation_prompt} \n\n Parsed text: {text}"
+    # Run evaluation 
+    input_text = f"Prompt: {prompt_pdf} \n\n Parsed text: {text}"
 
     response = model.generate_content(input_text)
     response_text = response.text if hasattr(response, "text") else str(response)
-    # file_path = f"test_val/{page_num}.md"
 
-    # with open(file_path, "w", encoding="utf-8") as md_file:
-    #     md_file.write(response_text)
-    
     return response_text
         
         
-def extract_page(content, PNG_path):
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel(GEMINI_MODEL)
+def extract_page(content, PNG_path) -> str:
+    """ Reformat text and parse table's text """
     
-   # Build the parts for the request
-    parts = [{"text": prompt_page}]
+   # Prompt for full-page process
+    parts = [{"text": prompt_extract}]
 
-    # Add user’s text
+    # Current extracted text content
     parts.append({"text": f"Here is the page's text content:\n{content}"})
 
     # Add all PNG images

@@ -1,15 +1,23 @@
-4. QUY ĐỊNH VỀ SỬ DỤNG VÀ TRUY CẬP MẠNG NỘI BỘ
+# Page 38
 
-Trách nhiệm quản lý hệ thống CNTT
-* Xây dựng bảng phân quyền: Phối hợp xây dựng bảng phân quyền truy cập của từng hệ thống phần mềm nghiệp vụ.
-* Cài đặt hệ thống quản lý: Cài đặt các hệ thống quản lý vận hành đảm bảo thực hiện đúng theo quy định.
-* Rà soát tài khoản: Định kỳ 6 tháng rà soát các tài khoản không còn sử dụng để thu hồi, hủy bỏ.
+Mục đích quy định
+- Đảm bảo an toàn thông tin trong hoạt động trao đổi qua email
+- Bảo vệ tài sản thông tin của Công ty
+- Giảm thiểu rủi ro rò rỉ, mất mát hoặc bị khai thác trái phép
 
-Các hành vi bị nghiêm cấm
-* Chỉ truy cập dữ liệu được phép thông qua phân quyền của người có thẩm quyền.
-* Không được sử dụng mạng nội bộ để đăng tải những thông tin chống lại cá nhân, tổ chức, vi phạm thuần phong mỹ tục và quy định an ninh quốc phòng.
-* Không cho người khác mượn tài khoản hoặc để lộ mật khẩu.
-* Không truy cập website không liên quan hoặc đã bị chặn.
+5. QUY ĐỊNH VỀ SỬ DỤNG EMAIL CÔNG TY
+
+| Tiêu chí                          | Nội dung/Quy định                                                                                                                                                                                                                                                                                                                       |
+| :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Email công ty                     | • Chỉ sử dụng email do Công ty cấp hoặc email khách hàng cấp cho công việc<br>• Cấm sử dụng email cá nhân hoặc email hệ thống không được phép tại Công ty                                                                                                                                                                                 |
+| Tài khoản thông tin               | • Tất cả thông tin gửi/nhận qua email Công ty đều là tài sản thông tin của Công ty<br>• Phải bảo mật và sử dụng đúng mục đích                                                                                                                                                                                                            |
+| Quy tắc gửi email                 | • Kiểm tra kỹ: TO, CC, BCC, tiêu đề, nội dung và tệp đính kèm<br>• File đính kèm phải: Mã hóa/đặt mật khẩu; Không gửi mật khẩu trong cùng Email                                                                                                                                                                                           |
+| Các hành vi cấm khi sử dụng Email | • Email test<br>• Sử dụng email người khác<br>• Giả mạo, bẻ khóa, xâm nhập, tấn công<br>• Gửi email xúc phạm, công kích, phản cảm, vi phạm luật pháp<br>• Gửi thư rác                                                                                                                                                                      |
+| Đăng ký không hợp lệ              | • Không sử dụng email Công ty để đăng ký vào diễn đàn mạng xã hội, dịch vụ không phục vụ công việc                                                                                                                                                                                                                                  |
+| Cẩn trọng email lạ (*)            | • Không mở email từ địa chỉ lạ<br>• Xóa ngay lập tức nếu nghi ngờ là email giả mạo hoặc có hại                                                                                                                                                                                                                                       |
+| Bảo vệ tài khoản email            | • Mật khẩu ít nhất 8 ký tự gồm chữ hoa, thường, số, ký tự đặc biệt<br>• Thay đổi định kỳ: Ít nhất mỗi 90 ngày<br>• Không chia sẻ mật khẩu, bảo mật tuyệt đối                                                                                                                                                                              |
+
+(*) Người gửi không quen, Nội dung bất thường, File hoặc link lạ, Tính cấp bách cao,...
 
 [Schema](page_38_img_0.png)
 [Schema](page_38_img_1.png)
@@ -18,5 +26,3 @@ Các hành vi bị nghiêm cấm
 [Schema](page_38_img_4.png)
 [Schema](page_38_img_5.png)
 [Schema](page_38_img_6.png)
-[Schema](page_38_img_7.png)
-[Schema](page_38_img_8.png)

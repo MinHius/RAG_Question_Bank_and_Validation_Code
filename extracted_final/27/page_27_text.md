@@ -1,4 +1,3 @@
-4. QUY ĐỊNH AN TOÀN THÔNG TIN TẠI ITS
+# Page 27
 
-[Schema](page_27_img_0.png)
-[Schema](page_27_img_1.png)
+ 4. QUY ĐỊNH AN TOÀN THÔNG TIN TẠI ITS 

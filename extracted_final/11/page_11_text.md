@@ -1,4 +1,4 @@
-Case studies 2 - Ransomware
+# Page 11
 
-[Schema](page_11_img_0.png)
-[Schema](page_11_img_1.png)
+ . 
+ Case studies 2  - Ransomware 

@@ -1,4 +1,4 @@
-Page 2
-[Schema](page_2_table_1.png)
+# Page 2
 
-[Schema](page_2_img_0.png)
+
+[Schema](page_2_table_1.png)

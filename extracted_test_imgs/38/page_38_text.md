@@ -1,4 +1,4 @@
-# Page 39
+# Page 38
 
  Mục đích quy định 
  - Đảm bảo an toàn thông tin trong hoạt động trao đổi qua email  - Bảo vệ tài sản thông tin của Công ty - Giảm thiểu rủi ro rò rỉ, mất mát hoặc bị khai thác trái phép 5. QUY ĐỊNH VỀ SỬ DỤNG EMAIL CÔNG TY Email công ty  Chỉ sử dụng  email do  Công ty cấp  hoặc email  khách hàng  cấp cho công  việc 
@@ -19,3 +19,11 @@
 • Thay đổi  định kỳ: Ít  nhất mỗi 90  ngày 
 • Không chia  sẻmật khẩu,  bảo mật tuyệt  đối 
  (* Người gửi không quen, Nội dung bất thường, File hoặc link lạ,  Tính cấp bách cao,...) 
+
+[Schema](page_38_img_0.png)
+[Schema](page_38_img_1.png)
+[Schema](page_38_img_2.png)
+[Schema](page_38_img_3.png)
+[Schema](page_38_img_4.png)
+[Schema](page_38_img_5.png)
+[Schema](page_38_img_6.png)

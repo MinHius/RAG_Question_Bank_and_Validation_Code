@@ -9,11 +9,8 @@ import re
 import time
 from validation import validate_parser, extract_page
 
-input_file = "C:/Users/Dell/Desktop/TÀI LIỆU ĐÀO TẠO AN TOÀN THÔNG TIN 2025.pdf"
-output_path = Path("extracted_test")
-table_coords = defaultdict(list)
 
-def is_indexing(line: str) -> bool:
+def is_bullet(line: str) -> bool:
     return bool(re.match(
     r"""^(
         [\u2022\u2023\u25E6\u2043\u2219\-\+\*•●○■□◆▶►]   # common bullet symbols
@@ -24,21 +21,18 @@ def is_indexing(line: str) -> bool:
     )(\s+.*)?$""", 
     line.strip(), re.VERBOSE))
 
-
-
-def make_merged(merged):
+def make_merged(merged) -> str:
     if merged:
         # join the last merged symbol(s) with this text
         tmp = merged.pop(-1)
         line_text = "".join(tmp) + " " + line_text
     return line_text, merged
 
-def make_small_line(content, small_line):
+def make_small_line(content, small_line) -> str:
     content = content + small_line
     return content
 
-
-def fix_bullet_lists(md_text: str) -> str:
+def fix_bullet_list(md_text: str) -> str:
     lines = md_text.splitlines()
     fixed_lines = []
     buffer = []  # hold potential bullet/numbered list
@@ -74,170 +68,196 @@ def fix_bullet_lists(md_text: str) -> str:
 
     return "\n".join(fixed_lines)
 
+def append_line(content: str, previous_type: str, line_text: str):
+    """Parse text content"""
+    words = line_text.split()
+    wc = len(words)
+    last_char = content[-1] if content else ""
 
-def table(page_number):
+    if wc in range(1, 7):
+        if not is_bullet(line_text):
+            """Short lines, not bullets"""
+
+            # Current content is at end of sentences
+            if last_char in [".", ";", ":"]:
+                content += "\n"
+
+            # Append short line
+            content += " " + line_text + " "
+
+            # Short lines having periods
+            if line_text.endswith("."):
+                content += "\n"
+
+            previous_type = "short text"
+        else:
+            # Short lines - bullets
+            content += "\n" + line_text + " "
+            previous_type = "bullet"
+
+    else:
+        if previous_type == "short text":
+            content += "\n"
+
+        # Long line with period
+        if line_text.endswith(".") and wc > 1:
+            content += line_text + "\n"
+
+        # Long line - continuous
+        elif last_char.isalpha() or last_char == " ":
+            content += " " + line_text
+        else:
+            content += " " + line_text + " "
+
+        previous_type = "long text"
+
+    return content, previous_type
+
+
+
+def extract_table(page, page_number) -> list:
+    """Extract table iamges and coords"""
+    
+    table_coords = defaultdict(list) # List of table coords
     os.makedirs(output_path, exist_ok=True)
 
     with pdfplumber.open(input_file) as pdf:
         page = pdf.pages[page_number]
         tables = page.find_tables()
-        for table_index, table in enumerate(tables, start=1):
-            file_name = f"page_{page_number}_table_{table_index}.png"
-            file_path = output_path / f"{page_number}" / "table_img" / file_name
-            file_path.parent.mkdir(parents=True, exist_ok=True)
+        
+    for table_index, table in enumerate(tables, start=1):
+        
+        file_name = f"page_{page_number}_table_{table_index}.png"
+        table_img_path = output_path / f"{page_number}" / "table_img" / file_name
+        table_img_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Clip bbox to page bounds
+        x0, y0, x1, y1 = table.bbox
+        table_coords[page_number].append({
+            "coords": [x0, y0, x1, y1],
+            "path": table_img_path
+        })
+        px0, py0, px1, py1 = page.bbox
+
+        clipped_bbox = (
+            max(x0, px0),
+            max(y0, py0),
+            min(x1, px1),
+            min(y1, py1)
+        )
+
+        # Crop page to table bbox
+        cropped_page = page.within_bbox(clipped_bbox)
+        table_img = cropped_page.to_image(resolution=150)
+        table_img.save(table_img_path, format="PNG")
+
+        print(f"Saved page {page_number}, table {table_index} → {table_img_path}")
             
-            # Clip bbox to page bounds
-            x0, y0, x1, y1 = table.bbox
-            table_coords[page_number].append({
-                "coords": [x0, y0, x1, y1],
-                "path": file_path
-            })
-            px0, py0, px1, py1 = page.bbox
-
-            clipped_bbox = (
-                max(x0, px0),
-                max(y0, py0),
-                min(x1, px1),
-                min(y1, py1)
-            )
-
-            # Crop page to table bbox
-            cropped_page = page.within_bbox(clipped_bbox)
-            table_img = cropped_page.to_image(resolution=150)
-            table_img.save(file_path, format="PNG")
-
-            print(f"Saved Page {page_number}, Table {table_index} → {file_path}")
-                
-
-def text_and_image(page_count):
-    runtime = []
-    doc = fitz.open(input_file)
-    print(type(doc))
-    page = doc[page_count]
-    page_count = 1
-    table_extracted = False
-    table_folder_path = None
-    start = time.time()
-    text_dict = page.get_text("dict")
+    return table_coords        
+           
+            
+def extract_text(doc, page, page_number, table_coords):
+    """Extract all text content of a page"""
     
-    content = f"# Page {page_count}\n\n"
-    table_bboxes = table_coords.get(page_count, [])
+    table_exist = False # Flag to extract path later
+    table_folder_path = None
+    text_dict = page.get_text("dict") # Full page content
+    table_bboxes = table_coords.get(page_number, []) # Table coords of a page
+    content = f"# Page {page_number}\n\n" # Top of text file is page number
+    
+    # Text file path
+    text_file_path = output_path / f"{page_number}" / f"page_{page_number}_text.md"
+    text_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-    previous_type = ""
+    
     for block in text_dict["blocks"]:
-        if block["type"] != 0:  # only text blocks
+        if block["type"] != 0:  # Only text blocks
+            continue
+    
+        rect = fitz.Rect(*block["bbox"]) # Bounding box of block
+
+        # Skipping overlapped table + flag table exists
+        if any(rect.intersects(fitz.Rect(*tb["coords"])) for tb in table_bboxes):
+            if table_exist == False:
+                table_folder_path = output_path / f"{page_number}" / "table_img"
+                table_exist = True
             continue
         
-        rect = fitz.Rect(*block["bbox"])
-
-        # skip if block overlaps any table
-        if any(rect.intersects(fitz.Rect(*tb["coords"])) for tb in table_bboxes):
-            if table_extracted == False:
-                table_folder_path = output_path / f"{page_count}" / "table_img"
-                table_extracted = True
-            continue
-
-        # collect text line by line
-        merged = []
-
+        previous_type = "" # Track each parsed line types
+        
+        # Parse each line in a block
         for line in block["lines"]:
             line_text = "".join(span["text"] for span in line["spans"]).strip()
-            if not line_text:  # skip empty lines
+            if not line_text:  # Skip empty lines
                 continue
             if re.fullmatch(r"\d+", line_text.strip()) and rect.y1 > page.rect.height * 0.9:
-                continue  # skip footer page number
+                continue  # Skip footer page number
 
+            # Process and form full text content
+            content, previous_type = append_line(content, previous_type, line_text)
             
-            if len(line_text.split()) in range(1,7):
-                if not is_indexing(line_text):
-                    """Short lines, not bullets"""
-                    
-                    # Current content is at end of sentences
-                    if content[-1] != " " and content[-1] in [".", ";", ":"]:
-                        content += "\n"
-                        
-                    # Append short line
-                    content += " " + line_text + " "
-                    
-                    # Short lines having periods
-                    if line_text[-1] == ".":
-                        content += "\n"
-                    previous_type = "short text"
-                else:
-                    # Short lines - bullets
-                    content += "\n" + line_text + " "
-                    previous_type = "bullet"
-            else:
-                if previous_type in ["short text"]:
-                    content += "\n"
-                    
-                # Long line with period
-                if "." == line_text[-1] and len(line_text.split()) > 1:
-                    content += line_text + "\n"
-                # Long line - continuous
-                elif content[-1].isalpha() or content[-1] == " ":
-                    content += " " + line_text
-                else: 
-                    content += " " + line_text + " "
-                previous_type = "long text"
-                
-        
+              
+
     # Save to Markdown
-    file_path = output_path / f"{page_count}" / f"page_{page_count}_text.md"
-    file_path.parent.mkdir(parents=True, exist_ok=True)
+    text_file_path = output_path / f"{page_number}" / f"page_{page_number}_text.md"
+    text_file_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Sort numeric list
-    content = fix_bullet_lists(content)
+    content = fix_bullet_list(content)
     
-    # LLM re-formatting
-    if table_folder_path:
-        content = extract_page(content, table_folder_path)
+    # LLM-based post-processing
+    if table_exist:
+        content = extract_page(content, table_folder_path) # LLM reformat + extract table text
     else:
-        content = validate_parser(content)
+        content = validate_parser(content) # LLM reformat
     
-    # Write text content
-    with open(file_path, "w", encoding="utf-8") as md_file:
+    # Write text content into .md files
+    with open(text_file_path, "w", encoding="utf-8") as md_file:
         md_file.write(content)
 
-    # Append table path
-    with open(file_path, "a", encoding="utf-8") as md_file:
+    # Append table path into .md text files
+    with open(text_file_path, "a", encoding="utf-8") as md_file:
         md_file.write("\n")
         for tb in table_bboxes:
             md_file.write(f"[Schema]({tb['path'].name})\n")
-        
+            
     # Extract images
+    extract_image(doc, page, text_file_path, page_number)
+
+def extract_image(doc, page, text_file_path, page_number):
+    """Extract all images in a page"""
+    
+    
     img_paths = []
     for img_index, img in enumerate(page.get_images(full=True)):
         xref = img[0]
         pix = fitz.Pixmap(doc, xref)
-        img_path = output_path / f"{page_count}" / f"page_{page_count}_img_{img_index}.png"
+        
+        img_path = output_path / f"{page_number}" / f"page_{page_number}_img_{img_index}.png"
         img_path.parent.mkdir(parents=True, exist_ok=True)
-        if pix.n < 5:  # RGB or grayscale
-            pix.save(img_path)
-        else:
-            pix = fitz.Pixmap(fitz.csRGB, pix)
-            pix.save(img_path)
+        
+        if pix.n >= 5: 
+            pix = fitz.Pixmap(fitz.csRGB, pix) # Pixel map
+        pix.save(img_path)
         img_paths.append(img_path)
-            
-    # Append image path
-    with open(file_path, "a", encoding="utf-8") as md_file:
+        
+        # Append image paths into .md text files
+    with open(text_file_path, "a", encoding="utf-8") as md_file:
         md_file.write("\n")
         for path in img_paths:
             md_file.write(f"[Schema]({path.name})\n")
-
-    end = time.time()
-    runtime.append(end - start)
-        
-    print(f"Max: {max(runtime)}")
-    print(f"Min: {min(runtime)}")
-    print(f"Total: {sum(runtime)}")
-    print(f"Avg: {sum(runtime) / len(runtime)}")
+    
 
 
 if __name__ == "__main__":
     page_number = 38
-    table(page_number)
-    os.makedirs("test_val_test", exist_ok=True)
-    text_and_image(page_number)
+    input_file = "C:/Users/Dell/Desktop/TÀI LIỆU ĐÀO TẠO AN TOÀN THÔNG TIN 2025.pdf"
+    output_path = Path("extracted_test")
+    
+    doc = fitz.open(input_file)
+    page = doc[page_number]
+    
+    table_coords = extract_table(page, page_number)
+    extract_text(doc, page, page_number, table_coords)
 
 
