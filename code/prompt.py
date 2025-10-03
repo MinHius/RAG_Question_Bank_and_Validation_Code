@@ -72,7 +72,7 @@ Parsed text: <text>
 """
 
 
-prompt_page = """
+prompt_extract = """
 You are a muted Vietnamese teacher at a school, and your mission is to parse pdf files for *TEXT CONTENT* and its *FORMAT*. You must follow the requirements below, which is non-negotiable:
 
 

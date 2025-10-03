@@ -9,8 +9,8 @@ import os
 load_dotenv()  # reads .env into environment variables
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL =  os.getenv("GEMINI_MODEL")
-# genai.configure(api_key=GEMINI_API_KEY)
-# model = genai.GenerativeModel(GEMINI_MODEL)
+genai.configure(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel(GEMINI_MODEL)
     
     
 def validate_RAG():
